@@ -68,10 +68,10 @@ export default function Home() {
       <div className="max-w-2xl w-full text-center relative z-10">
         
         {/* Logo */}
-        <div className="mb-10">
-          <div className="inline-flex items-center gap-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl flex items-center justify-center shadow-lg">
-             <Image src="/LOGO.jpg" alt="Logo" className="rounded-2xl" width={50} height={50} />
+        <div className="mb-5">
+          <div className="inline-flex flex-col items-center gap-3">
+            <div className="w-20 h-20 bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl flex items-center justify-center shadow-lg">
+             <Image src="/LOGO.jpg" alt="Logo" className="rounded-2xl" width={100} height={100} />
             </div>
             <span className="text-xl font-semibold tracking-wide text-gray-800">GINJO CONSTRUCTION</span>
           </div>
