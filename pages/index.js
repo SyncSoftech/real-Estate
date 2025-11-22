@@ -1124,7 +1124,7 @@ export default function Home() {
             <div className="mb-6">
               <div className="inline-flex flex-col items-center gap-2">
                 <div className="w-16 h-16 bg-gradient-to-br  rounded-2xl flex items-center justify-center shadow-lg text-white font-bold text-lg">
-                 <Image src="/Logo.jpg" alt="Logo" className='rounded-2xl' width={100} height={100} />
+                 <Image src="/LOGO.jpg" alt="Logo" className='rounded-2xl' width={100} height={100} />
                 </div>
                 <span className="text-lg font-semibold tracking-wide text-gray-700">GINJO CONSTRUCTION</span>
               </div>
