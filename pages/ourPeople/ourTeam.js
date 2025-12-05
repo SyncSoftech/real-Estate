@@ -63,7 +63,7 @@ export default function OurTeam() {
       id: 'JUAN CHAUX',
       name: "JUAN CHAUX",
       role: "Head of Estimating EPC, Nuclear and Critical Infrastructure Specialist",
-      image: '/team/juan.jpg',
+      image: '/team/Juan.jpg',
     },
     
   ];

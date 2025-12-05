@@ -277,7 +277,7 @@ Gained experience in site based measurement, subcontract claim reviews and proje
   }
 ]
 ,
-      image: '/team/juan.jpg',
+      image: '/team/Juan.jpg',
     },
     
   ];
