@@ -1,5 +1,6 @@
 "use client";
 
+import { Link } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 
 /**
@@ -30,38 +31,32 @@ const FEATURE_CARDS = [
     id: 1,
     title: "What we do",
     desc: "Driving performance at every stage of our clients’ projects and programmes.",
-    image: CARD_A,
+    image: 'https://www.turnerandtownsend.com/media/3hjdcisp/_h3a9156_2560-x-1440px.webp?width=1280&height=512&v=1dae81280a67960',
+    link: "/about/what-we-do",
   },
   {
     id: 2,
     title: "Our story",
     desc: "How we've transformed to create global impact.",
-    image: CARD_B,
+    image:'https://www.turnerandtownsend.com/media/ynyjevlq/_h3a0051_2560-x-1440px.webp?width=1000&height=500&v=1dae81280b32390',
+    link: "/about/our-story",
   },
   {
     id: 3,
     title: "Our purpose and values",
     desc: "What drives us.",
-    image: CARD_C,
+    image: 'https://www.turnerandtownsend.com/media/to1guq35/annual-review-2023-24.webp?rxy=0.5265505266673643,0.62475569310424&width=1000&height=500&v=1dae81280886a10',
+    link: "/about/our-purpose-values",
   },
+ 
   {
     id: 4,
-    title: "Corporate responsibility",
-    desc: "Making a lasting difference, together.",
-    image: CARD_A,
-  },
-  {
-    id: 5,
     title: "Our people",
     desc: "A talented team of experts, delivering impactful projects.",
-    image: CARD_B,
+    image: 'https://www.turnerandtownsend.com/media/d0lnmeqe/_h3a9854_2560-x-1440px.webp?width=1000&height=500&v=1dae812808d9a30',
+    link: "/ourPeople",
   },
-  {
-    id: 6,
-    title: "Annual review",
-    desc: "Explore our performance and projects.",
-    image: CARD_C,
-  },
+  
 ];
 
 const OUTCOMES = [
@@ -79,9 +74,15 @@ export default function About() {
  
 
   return (<>
-    <main className=" mx-10 bg-white">
+    <main className=" lg:mx-10 bg-white">
       {/* Top blue banner */}
-      <header className="bg-[#163c72] -mb-20 text-white rounded-b-2xl overflow-hidden">
+      <header className=" -mb-20 py-20 bg-cover bg-center bg-no-repeat  text-white rounded-b-2xl overflow-hidden"style={{
+    backgroundImage: `
+      linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+      url('https://www.turnerandtownsend.com/media/vxyftgqu/_h3a0079_2560-x-1440px.webp?width=1280&height=512&v=1dadc4c4e844f10')
+    `
+    
+  }}>
         <div className="max-w-7xl mx-auto px-6 py-16">
           <h1 className="text-4xl md:text-5xl font-serif font-bold">About Us</h1>
           <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed text-white/90">
@@ -93,7 +94,7 @@ export default function About() {
       </header>
 
       {/* Content area */}
-      <div className=" bg-white rounded-t-2xl mx-auto px-6 py-8">
+      <div className=" bg-white rounded-t-2xl mt-10 mx-auto px-10 py-8">
 
 
  <main className="min-h-screen bg-white text-[#0f1724]">
@@ -104,68 +105,88 @@ export default function About() {
           <span className="mx-3">›</span>
           <span>About us</span>
         </nav>
+ {/* About Us Section */}
+    <section className="max-w-6xl mx-auto px-6 py-12">
+  {/* ABOUT US */}
+  <div className=" rounded-2xl  shadow-sm">
+    <h2 className="font-serif text-3xl md:text-4xl font-bold mb-6 text-[#0f1724]">
+      About Us
+    </h2>
 
-        <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-tight font-bold mb-6">
-          We transform together
-        </h1>
+    <div className="prose max-w-none text-gray-800 space-y-6">
+      <p className="text-lg leading-relaxed">
+        Ginjo is a commercial services partner that helps construction projects succeed with clarity, control and confidence. We provide expert cost management, contract support and project leadership that remove uncertainty and protect value from planning through to final account.
+      </p>
 
-        <div className="space-y-4 text-lg leading-relaxed text-gray-800 max-w-4xl">
-          <p>
-            Transformation is about rethinking what's possible and delivering projects that shape a better future.
-          </p>
-          <p>
-            Great projects don't just happen. They're built on bold ideas, collaboration and a <a href="#" className="text-[#0f4b7f] underline">shared purpose</a>.
-          </p>
-          <p>
-            By working closely with our clients and partners, we deliver projects and programmes that drive businesses forward, help improve people's lives and safeguard the planet.
-          </p>
-          <p>
-            Our expertise spans real estate, infrastructure, energy and natural resources – the segments that define how we live, work and connect. From delivering resilient cities to advancing clean energy, we approach every challenge with the same goal – to make a meaningful and lasting impact.
-          </p>
-          <p>
-            With over 22,000 experts across more than 60 countries, we bring unmatched talent and insight to every project, combining deep local knowledge with a global perspective.
-          </p>
+      <p className="text-lg leading-relaxed">
+        Our approach is practical. We understand the real pressures felt on live projects and take responsibility for solving problems before they grow. Clients rely on us for accurate reporting, informed advice and strong commercial systems that allow delivery teams to perform at their best.
+      </p>
+
+      <p className="text-lg leading-relaxed">
+        We support residential, commercial and data centre projects across the United Kingdom and Europe. We also work within major EPCM environments and provide commercial support to subcontractors who need strong backing on complex works.
+      </p>
+
+      <p className="text-lg leading-relaxed">
+        Ginjo is built on integrity, accountability and collaboration. We stand by our decisions, support our clients at every stage and deliver solutions that create measurable improvement. Our goal is simple. Better commercial outcomes for every project we touch.
+      </p>
+    </div>
+  </div>
+
+  {/* SECOND SECTION */}
+  <div className="mt-12 max-w-6xl mx-auto">
+    <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-tight font-bold mb-6">
+      We transform together
+    </h1>
+
+    <div className="space-y-4 text-lg leading-relaxed text-gray-800 max-w-4xl">
+      <p>
+        We Transform together: We improve the way projects are delivered by bringing clarity, structure and commercial discipline to every stage of the journey. Strong outcomes do not happen by chance. They are built through clear thinking, honest collaboration and a shared commitment to doing things properly.
+
+      </p>
+
+
+      <p>
+        
+By working closely with our clients and partners, we help strengthen their projects, protect value and support the teams responsible for delivering them. Our work spans real estate, infrastructure, aviation, rail, energy and complex industrial programmes across the UK and internationally. In every environment, our focus remains the same. Provide practical commercial guidance, improve decision making and ensure that no opportunity or risk is ever overlooked.
+
+
+      </p>
+
+      <p>
+       We combine hands on commercial experience with a deep understanding of FIDIC, NEC and JCT environments, allowing us to support complex projects with confidence and precision. Clients trust us because we stay close to the detail, work with complete honesty and bring a reliable standard of delivery that their teams can depend on.
+      </p>
+
+      
+    </div>
+  </div>
+</section>
+
+</div>
+      {/* Video-style hero */}
+     <section className="w-full px-0">
+  <div className="bg-transparent flex items-end lg:items-center">
+    <div className="p-8 md:p-12 lg:p-16 mx-auto w-full">
+      <div className="relative rounded-2xl overflow-hidden">
+        {/* VIDEO instead of image */}
+        <div className="relative">
+          <video
+            src="https://videos.pexels.com/video-files/4665000/4665000-uhd_2560_1440_30fps.mp4"
+            className="w-full h-64 md:h-80 lg:h-[420px] object-cover rounded-2xl"
+            autoPlay
+            muted
+            loop
+            playsInline
+          />
+          {/* gradient overlay */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-2xl" />
         </div>
       </div>
+    </div>
+  </div>
+</section>
 
-      {/* Video-style hero */}
-      <section className="w-full px-0">
-         
+     
 
-          <div className="bg-transparent flex items-end lg:items-center">
-            <div className="p-8 md:p-12 lg:p-16  mx-auto w-full">
-              <div className="relative rounded-2xl overflow-hidden">
-                {/* large image area with dark gradient bottom */}
-                <div className="relative">
-                  <img src={HERO_IMG} alt="video hero" className="w-full h-64 md:h-80 lg:h-[420px] object-cover rounded-2xl" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-2xl" />
-                </div>
-
-                {/* play circle */}
-                <button
-                  className="absolute left-6 bottom-6 w-14 h-14 rounded-full flex items-center justify-center bg-[#0ea5e9] border-4 border-white shadow-lg"
-                  aria-label="Play video"
-                >
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                    <path d="M7 6v12l10-6L7 6z" fill="white" />
-                  </svg>
-                </button>
-
-                {/* meta */}
-                <div className="absolute left-6 bottom-6 md:left-6 md:bottom-6 text-white" style={{ transform: "translateY(10px)" }}>
-                  <div className="font-serif text-xl md:text-2xl font-bold">About us</div>
-                  <div className="text-sm mt-2 flex items-center gap-2">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" className="inline-block">
-                      <path d="M12 1v11" stroke="white" strokeWidth="2" strokeLinecap="round" />
-                      <path d="M21 21H3" stroke="white" strokeWidth="2" strokeLinecap="round" />
-                    </svg>
-                    <span>01:34</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
 
       {/* Feature cards grid (6 cards) */}
       <section className="max-w-6xl mx-auto px-6 py-12">
@@ -176,7 +197,7 @@ export default function About() {
                 <img src={c.image} alt={c.title} className="w-full h-full object-cover" />
               </div>
 
-              <div className="bg-[#f2ebe3] p-5 rounded-b-2xl">
+              <div className="bg-[#bac6c7] h-full p-5 rounded-b-2xl">
                 <h3 className="font-serif text-xl font-semibold mb-2">{c.title}</h3>
                 <p className="text-sm text-gray-700">{c.desc}</p>
               </div>
@@ -186,7 +207,7 @@ export default function About() {
       </section>
 
       {/* Outcomes grid (2x2) with right column offset (mt-10 on lg screens) */}
-      <section className="max-w-6xl mx-auto px-6 pb-16">
+      {/* <section className="max-w-6xl mx-auto px-6 pb-16">
         <div className="mb-6">
           <div className="text-sm uppercase tracking-wide text-gray-600">Outcomes</div>
           <h2 className="font-serif text-3xl md:text-4xl font-bold mt-3">A testament to innovation</h2>
@@ -222,7 +243,7 @@ export default function About() {
         <div className="flex justify-end mt-6">
           <button className="px-4 py-2 rounded-md border border-gray-300 bg-white hover:bg-gray-50">Explore all projects</button>
         </div>
-      </section>
+      </section> */}
     </main>
 
         </div>
@@ -230,13 +251,13 @@ export default function About() {
 <div className="w-full bg-white">
 
       {/* Join our team banner */}
-      <section className="w-full bg-[#163c72] text-white">
+      <section className="w-full bg-[#bac6c7] text-Black">
         <div className="max-w-7xl mx-auto px-6 py-12 md:py-16">
           <h2 className="font-serif text-3xl md:text-4xl font-bold mb-3">
             Join our team
           </h2>
 
-          <p className="text-sm md:text-base max-w-2xl text-white/90 mb-6">
+          <p className="text-sm md:text-base max-w-2xl  mb-6">
             Work on some of the most exciting projects and programmes happening around the world.
           </p>
 

@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 
 
-
+import Link from "next/link";
 
 
 export default function OurPeople() {
@@ -13,22 +13,29 @@ export default function OurPeople() {
     {
       title: "Our leadership",
       desc: "Get to know our leadership team. Introducing the people who take the business forward.",
-      image: IMG,
+      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/DSC9398-2048x1363.jpg',
+      href: '/ourPeople/ourLeaders',
     },
     {
       title: "Our team",
       desc: "Get to know our people. Meet the experts who are delivering great outcomes and help grow our business.",
-      image: IMG,
+      image: '/gallery/Denmark1.webp',
+      href: '/ourPeople/ourTeam',
     },
   ];
 
     
 
   return (<>
-    <main className=" mx-10 bg-white">
+    <main className=" lg:mx-10 bg-white">
       {/* Top blue banner */}
-      <header className="bg-[#163c72] -mb-20 text-white rounded-b-2xl pb-20 overflow-hidden">
-        <div className="max-w-7xl mx-auto px-6 py-16">
+<header className=" -mb-20 py-20 bg-cover bg-center bg-no-repeat  text-white rounded-b-2xl overflow-hidden"style={{
+    backgroundImage: `
+      linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+      url('https://www.turnerandtownsend.com/media/d0lnmeqe/_h3a9854_2560-x-1440px.webp?width=1280&height=512&v=1dae812808d9a30')
+    `
+    
+  }}>  <div className="max-w-7xl mx-auto px-6 py-16">
           <h1 className="text-4xl md:text-5xl font-serif font-bold">Our People</h1>
           <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed text-white/90">
             We are involved in many of the world's most impactful construction
@@ -70,12 +77,12 @@ export default function OurPeople() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
           {cards.map((c, i) => (
             <article key={i} className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm">
-              <div className="h-44 overflow-hidden">
+              <div className="h-[20rem] overflow-hidden">
                 <img src={c.image} alt={c.title} className="w-full h-full object-cover" />
               </div>
 
-              <div className="bg-[#f2ebe3] p-5 rounded-b-2xl">
-                <h3 className="font-serif text-xl font-semibold mb-2">{c.title}</h3>
+              <div className="bg-[#bac6c7] p-5 rounded-b-2xl">
+               <Link href={c.href}> <h3 className="font-serif text-xl font-semibold mb-2">{c.title}</h3></Link>
                 <p className="text-sm text-gray-700">{c.desc}</p>
               </div>
             </article>
@@ -85,10 +92,10 @@ export default function OurPeople() {
       </div>
 
       {/* Join our team banner */}
-      <div className="w-full bg-[#163c72] text-white">
+      <div className="w-full bg-[#bac6c7] text-Black">
         <div className="max-w-7xl mx-auto px-6 py-12 md:py-16">
           <h2 className="font-serif text-3xl md:text-4xl font-bold mb-3">Join our team</h2>
-          <p className="text-sm md:text-base text-white/90 max-w-3xl mb-6">
+          <p className="text-sm md:text-base  max-w-3xl mb-6">
             Work on some of the most exciting projects and programmes happening around the world.
           </p>
 

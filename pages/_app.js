@@ -5,10 +5,11 @@ export default function App({ Component, pageProps }) {
   return (
     <>
      
-        {/* <Navbar /> */}
+        <Navbar />
+        <div className="mt-20">
         <Component {...pageProps} />
-        {/* <Footer />        */}
-  
+        </div>
+        <Footer />       
     </>
   );
 }

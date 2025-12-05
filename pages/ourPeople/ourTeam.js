@@ -10,51 +10,77 @@ export default function OurTeam() {
  const IMG = "/mnt/data/be6442a1-683f-4b00-8e13-a5d19cd86f12.png";
 
   const teamMembers = [
-    {
-      id: 'vincent-clancy',
-      name: "Vincent Clancy",
-      role: "Chairman and Chief Executive Officer",
-      image: IMG,
+   {
+      id: 'Sabahat Mazhar',
+      name: "Sabahat Mazhar",
+      role: "Operations Manager",
+      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/sabahat-1.jpg',
     },
     {
-      id: 'james-dand',
-      name: "James Dand",
-      role: "Chief Operating Officer",
-      image: IMG,
+      id: 'Mrunali Ghumare',
+      name: "Mrunali Ghumare",
+      role: "Jr. Quantity Surveyor",
+      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/fe54640e-78e5-4aff-90f8-2cb87b24433a-e1761904596669.jpg',
     },
     {
-      id: 'richard-peers',
-      name: "Richard Peers",
-      role: "Finance Director",
-      image: IMG,
+      id: 'Owais Khatib',
+      name: "Owais Khatib",
+      role: "Graduate Quantity Surveyor",
+      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Untitled-design-1.jpg',
     },
     {
-      id: 'patricia-moore',
-      name: "Patricia Moore",
-      role: "Managing Director, UK",
-      image: IMG,
+      id: 'Jonathan Maisey',
+      name: "Jonathan Maisey",
+      role: "Quantity Surveyor",
+      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/Image-23-2-e1762605184760.jpg',
     },
     {
-      id: 'anooj-oodit',
-      name: "Anooj Oodit",
-      role: "Managing Director, Americas",
-      image: IMG,
+      id: 'Tehreem Rubab',
+      name: "Tehreem Rubab",
+      role: "Marketing Assistant",
+      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/Image-14-scaled-e1762605149872.jpg',
     },
     {
-      id: 'david-whysall',
-      name: "David Whysall",
-      role: "Global Managing Director of Energy and Natural Resources",
-      image: IMG,
+      id: 'Ellen Tilles',
+      name: "Ellen Tilles",
+      role: "Marketing Assistant",
+      image: '/team/ellen.jpg',
     },
+    
+    {
+      id: 'EVE CHIN',
+      name: "EVE CHIN",
+      role: "Quantity Surveyor Cost Assurance and Verification Analyst",
+      image: '/team/eve.jpg',
+    },
+    {
+      id: 'MANU NAIR',
+      name: "MANU NAIR",
+      role: "Senior Quantity Surveyor Commercial Lead",
+      image: '/team/manu.jpg',
+    },
+    {
+      id: 'JUAN CHAUX',
+      name: "JUAN CHAUX",
+      role: "Head of Estimating EPC, Nuclear and Critical Infrastructure Specialist",
+      image: '/team/juan.jpg',
+    },
+    
   ];
 
     
 
   return (<>
-    <main className=" mx-10 bg-white">
+    <main className=" lg:mx-10 bg-white">
       {/* Top blue banner */}
-      <header className="bg-[#163c72] -mb-20 text-white rounded-b-2xl pb-20 overflow-hidden">
-        <div className="max-w-7xl mx-auto px-6 py-16">
+     <header className=" -mb-20 py-20 bg-cover bg-center bg-no-repeat  text-white rounded-b-2xl overflow-hidden"style={{
+    backgroundImage: `
+      linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+      url('https://www.turnerandtownsend.com/media/d0lnmeqe/_h3a9854_2560-x-1440px.webp?width=1280&height=512&v=1dae812808d9a30')
+    `
+    
+  }}> 
+   <div className="max-w-7xl mx-auto px-6 py-16">
           <h1 className="text-4xl md:text-5xl font-serif font-bold">Our Team</h1>
           <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed text-white/90">
             We are involved in many of the world's most impactful construction
@@ -103,7 +129,7 @@ export default function OurTeam() {
                 />
               </div>
 
-              <div className="bg-[#f2ebe3] p-5 rounded-b-2xl">
+              <div className="bg-[#bac6c7] p-5 rounded-b-2xl">
                 <h3 className="font-serif text-lg font-semibold">{member.name}</h3>
                 <p className="text-xs text-gray-700 mt-1">{member.role}</p>
               </div>
@@ -115,14 +141,14 @@ export default function OurTeam() {
       </div>
 
       {/* Join our team banner */}
-      <div className="w-full bg-[#163c72] text-white">
+      <div className="w-full bg-[#bac6c7] text-Black">
         <div className="max-w-7xl mx-auto px-6 py-12">
 
           <h2 className="font-serif text-3xl md:text-4xl font-bold mb-3">
             Join our team
           </h2>
 
-          <p className="text-sm md:text-base text-white/90 max-w-3xl mb-6">
+          <p className="text-sm md:text-base  max-w-3xl mb-6">
             Work on some of the most exciting projects and programmes happening around the world.
           </p>
 
