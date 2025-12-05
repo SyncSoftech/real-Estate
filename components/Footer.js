@@ -228,7 +228,7 @@ export default function HearMeFooter() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
           {/* LEFT - logo, description, badges, newsletter */}
           <div className="lg:col-span-7">
-            <div className="flex items-start flex-col gap-6">
+            <div className="flex items-start sm:flex-col lg:flex-row gap-6">
               <img
                 src="/LOGO.jpg"
                 alt="Hear Me London logo"
