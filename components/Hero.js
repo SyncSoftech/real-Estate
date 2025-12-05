@@ -75,7 +75,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <p className=' text-lg sm:text-xl md:text-2xl lg:-mt-24 lg:text-3xl mx-4 sm:mx-8 md:mx-12 lg:mx-36 mb-2'>
+      <p className=' text-lg sm:text-xl md:text-2xl lg:-mt-24 lg:text-3xl mx-4  sm:mx-8 md:mx-12 lg:mx-36 mb-2 lg:mb-10'>
         Proven industry experience. Real-world results
       </p>
 <Link
