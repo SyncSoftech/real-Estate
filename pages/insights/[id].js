@@ -8,7 +8,7 @@ const INSIGHTS = [
   {
   id: 1,
   title: "Why Forecasts Miss the Mark (and How to Improve Them)",
-  image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg",
+  image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Image-5-scaled-e1761411869601.jpg",
   date: "November 24, 2025",
   author: "Rishi",
   category: "Commercial Management",
@@ -52,7 +52,7 @@ const INSIGHTS = [
   {
   id: 2,
   title: "Why Value Engineering Fails (and What to Do Instead)",
-  image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg",
+  image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Image-5-scaled-e1761411869601.jpg",
   date: "November 17, 2025",
   author: "Rishi",
   category: "Value Delivery",
@@ -97,7 +97,7 @@ const INSIGHTS = [
 {
   id: 3,
   title: "Why Procurement Delays Derail Projects",
-  image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg",
+  image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Image-5-scaled-e1761411869601.jpg",
   date: "November 10, 2025",
   author: "Rishi",
   category: "Procurement & Cost Control",
@@ -154,7 +154,7 @@ const INSIGHTS = [
 {
   id: 4,
   title: "Why Final Accounts Drag On (and Drain Profit)",
-  image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg",
+  image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Image-5-scaled-e1761411869601.jpg",
   date: "October 6, 2025",
   author: "Rishi",
   category: "Commercial Management",
@@ -234,8 +234,8 @@ export default function InsightDetail({ insight }) {
   }
 
   const excerpt = stripTags(insight.content).substring(0, 160) + "...";
-  const authorImage = insight.authorImage || "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg";
-  const authorTitle = insight.authorTitle || "Senior Consultant";
+  const authorImage = insight.image || "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg";
+  const authorTitle = insight.authorTitle || "Associate Director – Operations";
   const publishedDate = insight.date || insight.publishedDate || "";
 
   return (
@@ -318,7 +318,7 @@ export default function InsightDetail({ insight }) {
                 />
 
                 {/* Related */}
-                <div className="pt-8 border-t">
+                {/* <div className="pt-8 border-t">
                   <h4 className="font-semibold mb-3">Related</h4>
                   <ul className="space-y-2">
                     {insight.related?.map((r) => (
@@ -329,7 +329,7 @@ export default function InsightDetail({ insight }) {
                       </li>
                     ))}
                   </ul>
-                </div>
+                </div> */}
               </article>
             </div>
           </section>

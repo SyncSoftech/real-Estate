@@ -1,8 +1,8 @@
 "use client";
 
-import { Link } from "lucide-react";
+// import { Link } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
-
+import Link from "next/link";
 /**
  * ProjectsSection.js
  *
@@ -46,7 +46,7 @@ const FEATURE_CARDS = [
     title: "Our purpose and values",
     desc: "What drives us.",
     image: 'https://www.turnerandtownsend.com/media/to1guq35/annual-review-2023-24.webp?rxy=0.5265505266673643,0.62475569310424&width=1000&height=500&v=1dae81280886a10',
-    link: "/about/our-purpose-values",
+    link: "/about/purpose-values",
   },
  
   {
@@ -197,10 +197,10 @@ By working closely with our clients and partners, we help strengthen their proje
                 <img src={c.image} alt={c.title} className="w-full h-full object-cover" />
               </div>
 
-              <div className="bg-[#bac6c7] h-full p-5 rounded-b-2xl">
+             <Link href={c.link}> <div className="bg-[#bac6c7] h-full p-5 rounded-b-2xl">
                 <h3 className="font-serif text-xl font-semibold mb-2">{c.title}</h3>
                 <p className="text-sm text-gray-700">{c.desc}</p>
-              </div>
+              </div></Link>
             </article>
           ))}
         </div>

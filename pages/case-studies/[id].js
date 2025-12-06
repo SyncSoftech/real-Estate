@@ -30,7 +30,7 @@
 //       lead: {
 //         name: "Daniel Ginn",
 //         role: "Project Lead, Procurement Strategy",
-//         image: "daniel-ginn.jpg", // replace if needed
+//         image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Daniel-Ginn-Website-scaled-e1761411935637.jpg", // replace if needed
 //       },
 //       challenge: `
 // Managing procurement on a multinational scale.
@@ -74,7 +74,7 @@
 //       lead: {
 //         name: "Daniel Ginn",
 //         role: "Commercial Manager, HS2 Limited",
-//         image: "daniel-ginn.jpg",
+//         image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Daniel-Ginn-Website-scaled-e1761411935637.jpg",
 //       },
 //       challenge: `
 // HS2 Phase 1 presented a highly complex infrastructure delivery environment governed by NEC contracts and involving multiple stakeholder interfaces.
@@ -119,7 +119,7 @@
 //         {
 //           name: "Daniel Ginn",
 //           role: "Project Lead, Procurement Strategy",
-//           image: "daniel-ginn.jpg",
+//           image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Daniel-Ginn-Website-scaled-e1761411935637.jpg",
 //         },
 //         {
 //           name: "Adersh Raj",
@@ -426,7 +426,7 @@ We worked alongside the team at Fluor to deliver procurement and contract manage
       lead: {
         name: "Daniel Ginn",
         role: "Project Lead, Procurement Strategy",
-        image: "daniel-ginn.jpg", // replace if needed
+        image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Daniel-Ginn-Website-scaled-e1761411935637.jpg", // replace if needed
       },
       challenge: `
 Managing procurement on a multinational scale.
@@ -470,7 +470,7 @@ We provided Commercial Management Services on the Engineering Delivery Partner F
       lead: {
         name: "Daniel Ginn",
         role: "Commercial Manager, HS2 Limited",
-        image: "daniel-ginn.jpg",
+        image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Daniel-Ginn-Website-scaled-e1761411935637.jpg",
       },
       challenge: `
 HS2 Phase 1 presented a highly complex infrastructure delivery environment governed by NEC contracts and involving multiple stakeholder interfaces.
@@ -515,7 +515,7 @@ We worked alongside AFRY Industry AB to support commercial and design coordinati
         {
           name: "Daniel Ginn",
           role: "Project Lead, Procurement Strategy",
-          image: "daniel-ginn.jpg",
+          image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Daniel-Ginn-Website-scaled-e1761411935637.jpg",
         },
         {
           name: "Adersh Raj",
@@ -807,7 +807,7 @@ export default function CaseStudyPage({ caseStudy, related = [] }) {
             </article>
 
             {/* Right column — quick facts & related */}
-            <aside className="bg-[#bac6c7] rounded-2xl p-6 border shadow-sm">
+            <aside className="bg-[#bac6c7] rounded-2xl h-1/3 p-6 border shadow-sm">
               <div className="mb-6">
                 <h4 className="text-sm text-gray-500">Quick facts</h4>
                 <div className="mt-3 text-sm text-gray-700">
