@@ -53,12 +53,12 @@ export default function OurTeam() {
       role: "Senior Quantity Surveyor",
       image: '/team/eve.jpg',
     },
-    {
-      id: 'Manu Nair',
-      name: "Manu Nair",
-      role: "Commercial Manager",
-      image: '/team/manu.jpg',
-    },
+    // {
+    //   id: 'Manu Nair',
+    //   name: "Manu Nair",
+    //   role: "Commercial Manager",
+    //   image: '/team/manu.jpg',
+    // },
     {
       id: 'Juan Chaux',
       name: "Juan Chaux",

@@ -195,40 +195,40 @@ Gained experience in site based measurement, subcontract claim reviews and proje
 ],
       image: '/team/eve.jpg',
     },
-    {
-      id: 'Manu Nair',
-      quote:"I like solving commercial problems before they become commercial dramas.",
-      name: "Manu Nair",
-      role: "Commercial Manager",
-      highlight: [
-  {
-    year: "Jan 2026 – Present",
-    role: "Senior Quantity Surveyor, Ginjo Construction — Supporting commercial leadership across major infrastructure and rail programmes. Responsibilities include NEC administration, subcontract management, change control and structured commercial reporting.",
-  },
-  {
-    year: "2024 – Present",
-    role: "Project Commercial Lead, FC Civils Solutions (Ferrovial Group) — Full commercial responsibility for the Edgcote Viaduct works on HS2, leading NEC3 subcontract administration, change and claim assessments, procurement, commercial reporting and strategic planning.",
-  },
-  {
-    year: "2022 – 2024",
-    role: "Senior Quantity Surveyor, John Sisk and Sons — Commercial lead on the Arlesey Relief Road and associated structures, plus oversight of station entrance and bridge schemes. Managed procurement, valuations, forecasting and NEC4 change control.",
-  },
-  {
-    year: "2018 – 2022",
-    role: "Quantity Surveyor, VolkerFitzpatrick — Delivered commercial management on rail station enhancements and CP5 earthworks schemes, including NEC3 administration, valuations and change processes.",
-  },
-  {
-    year: "2013 – 2018",
-    role: "Quantity Surveyor, Dutco Balfour Beatty, Dubai — Managed commercial delivery across major infrastructure, bridge and roadwork programmes for RTA and Emaar.",
-  },
-  {
-    year: "2008 – 2012",
-    role: "Early Career and Studies — Completed B.Tech in Civil Engineering followed by MSc in Quantity Surveying at Heriot Watt University.",
-  }
-]
-,
-      image: '/team/manu.jpg',
-    },
+//     {
+//       id: 'Manu Nair',
+//       quote:"I like solving commercial problems before they become commercial dramas.",
+//       name: "Manu Nair",
+//       role: "Commercial Manager",
+//       highlight: [
+//   { 
+//     year: "Jan 2026 – Present",
+//     role: "Senior Quantity Surveyor, Ginjo Construction — Supporting commercial leadership across major infrastructure and rail programmes. Responsibilities include NEC administration, subcontract management, change control and structured commercial reporting.",
+//   },
+//   {
+//     year: "2024 – Present",
+//     role: "Project Commercial Lead, FC Civils Solutions (Ferrovial Group) — Full commercial responsibility for the Edgcote Viaduct works on HS2, leading NEC3 subcontract administration, change and claim assessments, procurement, commercial reporting and strategic planning.",
+//   },
+//   {
+//     year: "2022 – 2024",
+//     role: "Senior Quantity Surveyor, John Sisk and Sons — Commercial lead on the Arlesey Relief Road and associated structures, plus oversight of station entrance and bridge schemes. Managed procurement, valuations, forecasting and NEC4 change control.",
+//   },
+//   {
+//     year: "2018 – 2022",
+//     role: "Quantity Surveyor, VolkerFitzpatrick — Delivered commercial management on rail station enhancements and CP5 earthworks schemes, including NEC3 administration, valuations and change processes.",
+//   },
+//   {
+//     year: "2013 – 2018",
+//     role: "Quantity Surveyor, Dutco Balfour Beatty, Dubai — Managed commercial delivery across major infrastructure, bridge and roadwork programmes for RTA and Emaar.",
+//   },
+//   {
+//     year: "2008 – 2012",
+//     role: "Early Career and Studies — Completed B.Tech in Civil Engineering followed by MSc in Quantity Surveying at Heriot Watt University.",
+//   }
+// ]
+// ,
+//       image: '/team/manu.jpg',
+//     },
     {
       id: 'Juan Chaux',
       quote:"Great estimates are not guesses. They are stories told with data, logic and commercial discipline.",
