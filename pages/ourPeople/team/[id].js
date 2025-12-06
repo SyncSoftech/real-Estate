@@ -46,7 +46,7 @@ export default function TeamMemberProfile() {
       id: 'Ellen Tilles',
       name: "Ellen Tilles",
       quote:'Commercial problems do not scare me. Unlabelled spreadsheets do. Luckily I can fix both.',
-      role: "Marketing Assistant",
+      role: "Senior Quantity Surveyor",
       bio:`I am a Construction Commercial and Claims Manager with more than twelve years of experience supporting large and complex projects across the UK and Europe. My background spans commercial management, contract negotiation, procurement, forensic quantum analysis and claims management, with a strong focus on ensuring that projects remain commercially protected, contractually compliant and financially controlled.
 
 I began my career in project accounting, where I developed a deep understanding of cost structures, reporting mechanisms and financial governance. This foundation shaped the way I work today. Accuracy, commercial clarity and disciplined reporting remain central to my approach. As my career progressed, I moved into procurement, subcontract management and commercial leadership roles across major contractors and specialist engineering organisations. These positions strengthened my understanding of how commercial decisions influence delivery and how early intervention prevents disputes and protects margin.
@@ -145,10 +145,10 @@ Supported JCT Design and Build projects, contributed to procurement savings, han
       image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/Image-23-2-e1762605184760.jpg',
     },
     {
-      id: 'EVE CHIN',
+      id: 'Eve Chin',
       quote:'I like making things clear. If the numbers or the contract story do not make sense, I will keep working until they do.',
-      name: "EVE CHIN",
-      role: "Quantity Surveyor Cost Assurance and Verification Analyst",
+      name: "Eve Chin",
+      role: "Senior Quantity Surveyor",
       highlight: [
   {
     year: "2025 – Present",
@@ -196,10 +196,10 @@ Gained experience in site based measurement, subcontract claim reviews and proje
       image: '/team/eve.jpg',
     },
     {
-      id: 'MANU NAIR',
+      id: 'Manu Nair',
       quote:"I like solving commercial problems before they become commercial dramas.",
-      name: "MANU NAIR",
-      role: "Senior Quantity Surveyor Commercial Lead",
+      name: "Manu Nair",
+      role: "Commercial Manager",
       highlight: [
   {
     year: "Jan 2026 – Present",
@@ -230,9 +230,9 @@ Gained experience in site based measurement, subcontract claim reviews and proje
       image: '/team/manu.jpg',
     },
     {
-      id: 'JUAN CHAUX',
+      id: 'Juan Chaux',
       quote:"Great estimates are not guesses. They are stories told with data, logic and commercial discipline.",
-      name: "JUAN CHAUX",
+      name: "Juan Chaux",
       role: "Head of Estimating EPC, Nuclear and Critical Infrastructure Specialist",
       highlight: [
   {

@@ -324,7 +324,7 @@ const unique = (arr, key) => Array.from(new Set(arr.map((x) => x[key]))).sort();
               pageSlice.map((j) => (
                 <tr key={j.id} className="bg-transparent border-b border-neutral-300">
                   <td className="py-4 px-6 border-t">
-                    <Link href={`/careers/${j.id}`} className="text-blue-600 hover:underline">
+                    <Link href={`/careers/${j.id}`} className="text-white hover:underline">
                       {j.title}
                     </Link>
                   </td>

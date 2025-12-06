@@ -31,7 +31,7 @@ export default function OurTeam() {
     {
       id: 'Jonathan Maisey',
       name: "Jonathan Maisey",
-      role: "Quantity Surveyor",
+      role: "Senior Quantity Surveyor",
       image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/Image-23-2-e1762605184760.jpg',
     },
     {
@@ -43,25 +43,25 @@ export default function OurTeam() {
     {
       id: 'Ellen Tilles',
       name: "Ellen Tilles",
-      role: "Marketing Assistant",
+      role: "Senior Quantity Surveyor",
       image: '/team/ellen.jpg',
     },
     
     {
-      id: 'EVE CHIN',
-      name: "EVE CHIN",
-      role: "Quantity Surveyor Cost Assurance and Verification Analyst",
+      id: 'Eve Chin',
+      name: "Eve Chin",
+      role: "Senior Quantity Surveyor",
       image: '/team/eve.jpg',
     },
     {
-      id: 'MANU NAIR',
-      name: "MANU NAIR",
-      role: "Senior Quantity Surveyor Commercial Lead",
+      id: 'Manu Nair',
+      name: "Manu Nair",
+      role: "Commercial Manager",
       image: '/team/manu.jpg',
     },
     {
-      id: 'JUAN CHAUX',
-      name: "JUAN CHAUX",
+      id: 'Juan Chaux',
+      name: "Juan Chaux",
       role: "Head of Estimating EPC, Nuclear and Critical Infrastructure Specialist",
       image: '/team/Juan.jpg',
     },
@@ -125,11 +125,11 @@ export default function OurTeam() {
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
 
-              <div className="bg-[#bac6c7] p-5 rounded-b-2xl">
+              <div className="bg-[#bac6c7] h-full p-5 rounded-b-2xl">
                 <h3 className="font-serif text-lg font-semibold">{member.name}</h3>
                 <p className="text-xs text-gray-700 mt-1">{member.role}</p>
               </div>

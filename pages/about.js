@@ -94,7 +94,7 @@ export default function About() {
       </header>
 
       {/* Content area */}
-      <div className=" bg-white rounded-t-2xl mt-10 mx-auto px-10 py-8">
+      <div className=" bg-white rounded-t-2xl mt-10 mx-auto lg:px-10 py-8">
 
 
  <main className="min-h-screen bg-white text-[#0f1724]">
@@ -106,7 +106,7 @@ export default function About() {
           <span>About us</span>
         </nav>
  {/* About Us Section */}
-    <section className="max-w-6xl mx-auto px-6 py-12">
+    <section className=" lg:max-w-6xl lg:mx-auto lg:px-6 py-12">
   {/* ABOUT US */}
   <div className=" rounded-2xl  shadow-sm">
     <h2 className="font-serif text-3xl md:text-4xl font-bold mb-6 text-[#0f1724]">
@@ -274,32 +274,36 @@ By working closely with our clients and partners, we help strengthen their proje
       </section>
 
       {/* Get in touch */}
-      <section className="max-w-7xl mx-auto px-6 py-10">
-        <h3 className="font-serif text-2xl md:text-3xl font-bold mb-4">
-          Get in touch
-        </h3>
+      <section className="max-w-7xl  mx-auto px-6 mt-5 pb-12">
+          <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">Get in touch</h2>
 
-        <div className="max-w-xl text-sm text-gray-800">
-          <div className="mb-3 font-medium">Contact us</div>
+          <div className="max-w-xl">
+            <div className="font-serif text-xl font-semibold">Honest Commercial Support. Real Project Results.</div>
+           
 
-          <ul className="space-y-3">
-            <li>
-              <a
-                className="inline-flex items-center gap-3 text-[#0f4b7f] hover:underline"
-                href="mailto:careers@example.com"
-              >
-                {/* envelope icon */}
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" className="flex-none">
-                  <path d="M3 8.5v7A2.5 2.5 0 0 0 5.5 18h13A2.5 2.5 0 0 0 21 15.5v-7" stroke="#0f4b7f" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M3 8.5l9 6 9-6" stroke="#0f4b7f" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
+            <ul className="space-y-3">
+              <li>
+                <Link href={'mailto:sales@ginjo.co.uk'} className="inline-flex items-center gap-3 text-[#0f4b7f] hover:underline">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" className="flex-none">
+                    <path d="M3 8.5v7A2.5 2.5 0 0 0 5.5 18h13A2.5 2.5 0 0 0 21 15.5v-7" stroke="#0f4b7f" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M3 8.5l9 6 9-6" stroke="#0f4b7f" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                  <span className="text-sm font-medium">Email</span>
+                </Link>
+              </li>
 
-                <span className="text-sm font-medium">Email</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+              <li>
+                <Link href={'tel:+44 07730748210'} className="inline-flex items-center gap-3 text-[#0f4b7f] hover:underline">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" className="flex-none">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 3.08 4.18 2 2 0 0 1 5 2h3a2 2 0 0 1 2 1.72c.12 1.05.42 2.07.9 3.02a2 2 0 0 1-.45 2.11L9.91 11.09a13.05 13.05 0 0 0 6 6l1.24-1.24a2 2 0 0 1 2.11-.45c.95.48 1.97.78 3.02.9A2 2 0 0 1 22 16.92z" stroke="#0f4b7f" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+
+                   <span className="text-sm font-medium">+44 07730748210</span> 
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </section>
 
       {/* ensure uploaded asset is registered by environment (hidden) */}
       <img

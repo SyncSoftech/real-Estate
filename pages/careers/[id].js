@@ -157,7 +157,7 @@ export default function JobDetail() {
   }
 
   return (
-    <main className=" min-h-screen mx-10">
+    <main className=" min-h-screen lg:mx-10">
   {/* Header */}
   <header className="bg-[#bac6c7] -mb-20 text-Black rounded-b-2xl pb-20 overflow-hidden">
     <div className="max-w-7xl mx-auto px-6 py-16">
@@ -222,7 +222,7 @@ export default function JobDetail() {
           </button>
           <Link 
             href="/careers" 
-            className="ml-4 px-6 py-3 border border-gray-300 rounded-md hover:bg-gray-50 transition-colors"
+            className="ml-4 px-2 lg:px-6 py-3 border border-gray-300 rounded-md hover:bg-gray-50 transition-colors"
           >
             Back to Careers
           </Link>
