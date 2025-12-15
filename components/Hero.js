@@ -32,7 +32,7 @@ export default function Hero() {
     return () => clearTimeout(timer);
   }, []);
 
-  const bg = "/mnt/data/c322b258-6381-4769-836e-e798dfa5c315.png";
+ 
 
   return (<>
     <section className="relative pt-5 overflow-hidden z-10 bg-[#bac6c7]">

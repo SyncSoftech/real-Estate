@@ -625,9 +625,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ginjo</title>
-        <meta name="description" content="Ginjo" />
-      </Head>
+  <title>Ginjo</title>
+  <meta name="description" content="Ginjo – commercial and project management experts." />
+  <link rel="icon" href="/favicon.ico" />
+</Head>
+
 
       
 
@@ -636,7 +638,7 @@ export default function Home() {
           title="We transform together."
           subtitle="Delivering complex projects and programmes across sectors with measurable outcomes."
           ctaText="Find out more"
-          heroImage="/hero.jpg"
+          
         />
 
   
