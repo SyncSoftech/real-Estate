@@ -626,7 +626,7 @@ export default function Home() {
     <>
       <Head>
         <title>Ginjo</title>
-        <meta name="description" content="Design-led Next.js + Tailwind clone of a professional consultancy homepage" />
+        <meta name="description" content="Ginjo" />
       </Head>
 
       
