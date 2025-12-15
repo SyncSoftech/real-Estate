@@ -625,7 +625,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>We transform together — TT clone</title>
+        <title>Ginjo</title>
         <meta name="description" content="Design-led Next.js + Tailwind clone of a professional consultancy homepage" />
       </Head>
 
