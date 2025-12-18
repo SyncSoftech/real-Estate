@@ -419,7 +419,7 @@ export default function HearMeFooter() {
 
               <h4 className="text-lg flex items-center font-semibold text-white tracking-wide mt-3">
                 <Mail className="mr-3" />
-                <span className="text-base">info@ginjo.co.uk</span>
+                <span className="text-base">sales@ginjo.co.uk</span>
               </h4>
             </div>
           </div>
