@@ -306,11 +306,7 @@ By working closely with our clients and partners, we help strengthen their proje
         </section>
 
       {/* ensure uploaded asset is registered by environment (hidden) */}
-      <img
-        src="/mnt/data/5f71424f-8e8f-48b4-8aeb-04a09f977f10.png"
-        alt="uploaded-asset"
-        className="hidden"
-      />
+      
     </div>
        
       

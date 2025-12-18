@@ -16,6 +16,8 @@ const Testimonials = () => {
     { name: 'storm', logo: '/testimonials/storm.webp' },
     { name: 'sotravic', logo: '/testimonials/sotravic.webp' },
     { name: 'tr', logo: '/testimonials/tr.webp' },
+    { name: 'Google', logo:'/testimonials/google.png' },
+    { name: 'Arcadis', logo:'/testimonials/arcadis.png' },
   ];
 
   // Duplicate partners for seamless loop

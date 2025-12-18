@@ -116,20 +116,13 @@ export default function Services() {
           <p>
             Our expertise spans real estate, infrastructure, energy and natural resources – the segments that define how we live, work and connect. From delivering resilient cities to advancing clean energy, we approach every challenge with the same goal – to make a meaningful and lasting impact.
           </p>
-          <p>
-            With over 22,000 experts across more than 60 countries, we bring unmatched talent and insight to every project, combining deep local knowledge with a global perspective.
-          </p>
+          
         </div>
       </div>
 
      
 <section className="w-full bg-[#bac6c7] py-10 md:py-14">
-      {/* Hidden image so your environment registers uploaded asset */}
-      <img
-        src="/mnt/data/d6ddf2b5-74ca-4920-8a64-f86b9f5ed429.png"
-        alt="uploaded"
-        className="hidden"
-      />
+      
 
       <div className="max-w-5xl mx-auto px-6">
         <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4">
