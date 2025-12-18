@@ -369,7 +369,7 @@ export default function HearMeFooter() {
                 <div className="flex items-center gap-3">
                   <Link href="#" aria-label="LinkedIn">
                     <img
-                      src="/footer/Linkedin.png"
+                      src="/footer/linkedin.png"
                       alt="LinkedIn"
                       className="w-7 h-auto object-contain"
                     />
