@@ -135,12 +135,12 @@ export default function About() {
   {/* SECOND SECTION */}
   <div className="mt-12 max-w-6xl mx-auto">
     <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-tight font-bold mb-6">
-      We transform together
+     We are experts in momentum
     </h1>
 
     <div className="space-y-4 text-lg leading-relaxed text-gray-800 max-w-4xl">
       <p>
-        We Transform together: We improve the way projects are delivered by bringing clarity, structure and commercial discipline to every stage of the journey. Strong outcomes do not happen by chance. They are built through clear thinking, honest collaboration and a shared commitment to doing things properly.
+        We are experts in momentum: We improve the way projects are delivered by bringing clarity, structure and commercial discipline to every stage of the journey. Strong outcomes do not happen by chance. They are built through clear thinking, honest collaboration and a shared commitment to doing things properly.
 
       </p>
 
