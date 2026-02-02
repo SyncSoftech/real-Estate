@@ -8,7 +8,7 @@ export default function Hero() {
   const [index, setIndex] = useState(0);
   const items = [
     { label: "Year of Experience", value: "24+" },
-    { label: "Countries provided", value: "6x" },
+    { label: "Countries Serviced", value: "6x" },
     { label: "Projects Completed", value: "50+" },
     // { label: "nationalities", value: "115" }
   ]

@@ -100,22 +100,22 @@ export default function Services() {
         </nav>
 
         <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-tight font-bold mb-6">
-          We transform together
+          We are Experts in Momentum
         </h1>
 
         <div className="space-y-4 text-lg leading-relaxed text-gray-800 max-w-4xl">
           <p>
-            Transformation is about rethinking what's possible and delivering projects that shape a better future.
+           At Ginjo, we partner with you from RIBA Stage 0 through Stage 5 transforming your boldest ideas into fully delivered projects. Our integrated consulting and delivery model brings together strategic procurement, robust contract management, commercial risk mitigation and cost control at every stage of your project lifecycle. From initial feasibility and concept development (Stage 0–1), through detailed design, tendering and procurement (Stage 2–3), to construction administration, value engineering and handover (Stage 4–5), Ginjo acts as your single, seamless point of accountability. 
           </p>
           <p>
-            Great projects don't just happen. They're built on bold ideas, collaboration and a <a href="#" className="text-[#0f4b7f] underline">shared purpose</a>.
+           By aligning our RICS-accredited experts alongside your team, we optimise cost, schedule and risk, while embedding sustainability and innovation in every decision. With Ginjo’s end-to-end partnership solution, you gain clarity, confidence and control ensuring your megaprojects deliver lasting value for your business, your stakeholders and the wider community.
           </p>
-          <p>
+          {/* <p>
             By working closely with our clients and partners, we deliver projects and programmes that drive businesses forward, help improve people's lives and safeguard the planet.
           </p>
           <p>
             Our expertise spans real estate, infrastructure, energy and natural resources – the segments that define how we live, work and connect. From delivering resilient cities to advancing clean energy, we approach every challenge with the same goal – to make a meaningful and lasting impact.
-          </p>
+          </p> */}
           
         </div>
       </div>

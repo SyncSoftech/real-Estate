@@ -28,7 +28,12 @@ export default function OurLeaders() {
       role: "Associate Director",
       image: '/leaders/adersh.jpg',
     },
-    
+    {
+      id: 'Juan Chaux',
+      name: "Juan Chaux",
+      role: "Head of Estimating EPC, Nuclear and Critical Infrastructure Specialist",
+      image: '/team/Juan.jpg',
+    },
     
   ];
 
@@ -90,7 +95,7 @@ export default function OurLeaders() {
                 <img
                   src={leader.image}
                   alt={leader.name}
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
 

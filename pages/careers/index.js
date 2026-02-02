@@ -142,6 +142,36 @@ const jobs = [
       "Degree in QS, Commercial Management, or Engineering.",
     ],
   },
+  {
+    id: 6,
+    title: "Graduate Quantity Surveyor",
+    country: "United Kingdom",
+    city: "London ",
+    contractType: "Hybrid – On Site",
+    experience: "Intermediate–Senior",
+    about:
+      "We are recruiting a Graduate Quantity Surveyor to support project cost management and commercial delivery across a range of construction works. This is an excellent opportunity to gain hands-on experience in cost planning, procurement, contract administration, and financial reporting, working closely with experienced Quantity Surveyors.",
+    whatYouDo: [
+      "Assist with quantity take-offs, measurement, and preparing cost estimates.",
+      "Support cost control and budgeting, including tracking spend and reporting.",
+"Help with procurement, supplier enquiries, quotations, and procurement schedules.",
+"Support contract administration, including documentation and managing variations.",
+"Assist with cost reporting, valuations, and cost-value reconciliation.",
+"Gain exposure to risk management and commercial reporting processes.",
+"Work alongside senior team members in meetings and stakeholder communication.",
+
+    ],
+    whatYouBring: [
+     " A Bachelor’s degree in Quantity Surveying, Construction Management, or a related field.",
+"Strong interest in commercial and cost management within construction projects.",
+"Awareness of contracts such as NEC / JCT (FIDIC exposure is a plus).",
+"Good understanding of construction processes and health & safety awareness.",
+"Strong organisation, attention to detail, and willingness to learn.",
+"Confident communication skills and a proactive, professional attitude.",
+
+
+    ],
+  },
 ];
 
 
@@ -194,7 +224,7 @@ const unique = (arr, key) => Array.from(new Set(arr.map((x) => x[key]))).sort();
         <div className="max-w-7xl mx-auto px-6 py-16">
           <h1 className="text-4xl md:text-5xl font-serif font-bold">Careers</h1>
           <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed text-Black/90">
-            We are always on the lookout for talented individuals to join our team. If you have a passion for real estate and a desire to make a difference, we encourage you to apply for a position.
+            We are always on the lookout for talented individuals to join our team. If you have a passion for construction and a desire to make a difference, we encourage you to apply for a position.
           </p>
         </div>
       </header>

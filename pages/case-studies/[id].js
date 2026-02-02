@@ -609,6 +609,47 @@ We analysed the commercial impact of engineering changes in real-time and mainta
       minutes: 4,
       image: 'https://www.constructionenquirer.com/wp-content/uploads/Vista-south-bank-1200x828.jpg',
     },
+     {
+      id: 10,
+      title: "Google Data Centre, Finland",
+      client: "JKV",
+      value: "Confidential",
+      description:
+       "Ginjo provided procurement and tendering support and commercial management of existing Logistics contract for the appointed Enabling subcontractor.                                                                                                                      ",
+      linkLabel: "See Case Study",
+      details: {
+      overview: `
+Overview: Ginjo Construction was appointed to provide procurement and tendering support, alongside commercial management of an existing logistics contract for the appointed Logistics and Enabling Works subcontractor. The role required immediate integration into a live, complex delivery environment while establishing the commercial structure needed to support long-term programme objectives. 
+      `,
+      implementation: "March 2023",
+      leads: [
+        {
+          name: "Daniel Ginn",
+          role: "Project Lead, Procurement Strategy",
+          image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Daniel-Ginn-Website-scaled-e1761411935637.jpg",
+        },
+        {
+          name: "Adersh Raj",
+          role: "Commercial Manager",
+          image: "adersh-raj.jpg",
+        },
+      ],
+      challenge: `
+             Challenge: The project involved a high-value, fast-moving logistics and enabling works package operating within a multi-stakeholder megaproject environment. The client required improved commercial governance, cost control, and procurement clarity, while supporting an operational site team already under delivery pressure. Existing systems and processes lacked consistency, limiting visibility, control, and efficient decision-making.         
+      `,
+      solution: `
+ Solution: Ginjo embedded directly within the project team to deliver hands-on commercial and procurement leadership. We:Provided structured procurement and tendering support aligned with project and programme requirementsEstablished robust organisational systems, practices, and commercial processes Delivered day-to-day commercial management and delivery support to the site team Introduced clear reporting, controls, and interfaces to support confident, timely decisions Our approach balanced immediate delivery needs with the implementation of scalable systems designed to withstand the demands of a complex programme.
+      `,
+      result: [
+       " Ginjo’s involvement delivered improved commercial clarity",
+       " governance, and cost control across the logistics and enabling works scope.",
+       " The site team benefited from enhanced support, clearer processes, and increased confidence in commercial decision-making."," The client gained a more resilient, auditable commercial framework", "aligned to programme objectives and capable of supporting ongoing delivery at megaproject scale.",
+      ],
+    },
+      minutes: 4,
+      image:
+        "https://images.pexels.com/photos/4508751/pexels-photo-4508751.jpeg?_gl=1*1f70t0k*_ga*ODcxNjM1MjExLjE3NzAwNjEwMTk.*_ga_8JE65Q40S6*czE3NzAwNjEwMTkkbzEkZzAkdDE3NzAwNjEwMTkkajYwJGwwJGgw",
+    },
   ],
 };
 

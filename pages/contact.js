@@ -315,7 +315,7 @@ export default function Contact() {
               We're available around the clock for urgent inquiries
             </p>
           </div>
-          <div className="bg-white rounded-xl shadow-md p-8 text-center">
+          {/* <div className="bg-white rounded-xl shadow-md p-8 text-center">
             <h3 className="text-2xl font-bold  mb-2">Global</h3>
             <p className="text-[#123e6a]">
               Offices in 62 countries ready to assist you
@@ -326,7 +326,7 @@ export default function Contact() {
             <p className="text-[#123e6a]">
               Over 22,000 professionals at your service
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

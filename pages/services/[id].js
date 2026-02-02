@@ -881,7 +881,7 @@ const CAPABILITIES = [
       "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/site-engineer-construction-site-1536x1025.jpg",
     content: {
       description:
-        "Our RICS-accredited specialists deliver accurate cost forecasting, NEC/JCT-compliant valuations and interim applications, and dispute-resistant documentation to protect your project's commercial position.",
+        "Led by Adersh Rajagopalan Our RICS-accredited specialists deliver accurate cost forecasting, NEC/JCT-compliant valuations and interim applications, and dispute-resistant documentation to protect your project's commercial position.",
       highlights: [
         "Accurate cost forecasting with live dashboards",
         "NEC/JCT-compliant valuations and applications",
@@ -913,13 +913,13 @@ const CAPABILITIES = [
     },
   },
   {
-    title: "Estimating BOQs & MTOs",
-    desc: "We combine human expertise with tech-enabled tools to deliver fast, accurate outputs – while always maintaining professional judgment and scope understanding.",
+    title: "Estimating, BOQs & MTOs",
+    desc: "We combine experienced commercial judgment with tech-enabled tools to deliver fast, accurate, and structured outputs—while maintaining rigorous scope understanding, cost certainty, and commercial integrity.",
     image:
       "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/close-up-pens-calculator-plans-1536x1024.jpg",
     content: {
       description:
-        "Detailed, reliable estimating services that give contractors and clients confidence to price, plan and proceed with clarity. From early cost guidance to tender-ready BOQs and precise MTOs, we deliver the commercial foundation your project needs.",
+        " Led by Juan Chaux, Estimating Director, our estimating, Bills of Quantities, and Material Take-Off services are delivered with confidence across complex EPC and megaproject environments.        Sustainability is embedded throughout our process. Our estimates incorporate carbon monitoring and sustainability considerations, supporting informed decision-making, responsible procurement, and alignment with evolving ESG and net-zero objectives.",
       services: ["Pre-Contract Estimate", "Bill of Quantities (BOQs)", "Material Take offs (MTOs)"],
       // New: expanded services content for estimating
       servicesDetails: {
@@ -941,10 +941,10 @@ const CAPABILITIES = [
         "Budget estimating and benchmarking",
         "Trade package estimates and value engineering",
       ],
-      approach: `We combine human expertise with tech-enabled tools to deliver fast, accurate outputs while maintaining professional judgment and scope understanding.`,
+      approach: `We combine experienced commercial judgment with tech-enabled tools to deliver fast, accurate, and structured outputs—while maintaining rigorous scope understanding, cost certainty, and commercial integrity.`,
       people: [
-        { name: "Adersh Rajagopalan MRICS MAIQS MSc", role: "Associate Director", image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg" },
-        { name: "Rishi Rao", role: "Head of Business Operations", image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Image-5-scaled-e1761411869601.jpg" },
+        { name: "Juan Chaux", role: "Associate Director", image: "" },
+        // { name: "Rishi Rao", role: "Head of Business Operations", image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Image-5-scaled-e1761411869601.jpg" },
       ],
     },
   },
@@ -1004,14 +1004,14 @@ const CAPABILITIES = [
       "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/WhatsApp-Image-2025-10-31-at-8.09.26-PM-3-1536x1152.jpeg",
     content: {
       description:
-        "End-to-end project management services that deliver your project on time, within budget, and to the highest quality standards. Data-driven oversight for early issue resolution and ethical risk allocation.",
+        "Ginjo’s leadership model prioritises collaboration without compromise, ensuring all parties remain aligned while maintaining firm control over cost, programme, scope, and risk. Sustainability and ethical delivery are embedded throughout our service, supporting responsible decision-making and long-term value creation.With a proactive, solutions-driven mindset and a commitment to continuous improvement, Ginjo Construction acts as a trusted delivery partner—bringing structure, insight, and momentum to every project we manage.",
       approach: [
         "Project set-up & mobilisation",
         "Execution & monitoring",
         "Control phase (reviews & corrective actions)",
         "Close-out & lessons learned",
       ],
-      specialist: `Chartered RICS Expertise: Daniel Ginn brings rigorous, standardised methodologies from leading complex megaprojects at Fluor and AFRY. EPC megaproject focus with tailored controls for billion-pound infrastructure, energy and industrial programmes.`,
+      specialist: ` Led by Daniel Ginn, RICS Chartered Project Management Surveyor, our approach is grounded in proven delivery experience across large-scale and high-risk projects, including EPC and multi-stakeholder environments. Daniel’s academic foundation—an MSc in Construction Economics & Management (UCL) and a First-Class Honours degree in Commercial Law—strengthens our ability to integrate technical, commercial, and legal disciplines into a single, cohesive service.`,
       people: [{ name: "Daniel Ginn", role: "Director", image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Daniel-Ginn-Website-scaled-e1761411935637.jpg" }],
     },
   },
@@ -1023,7 +1023,7 @@ const CAPABILITIES = [
 
   content: {
     description:
-      "Claims and disputes often arise when projects move quickly or commercial decisions are not recorded correctly. Ginjo provides the structure, evidence and commercial strength needed to understand your true position, present entitlements clearly and resolve issues before they escalate.",
+      "At Ginjo, our systems are designed and built by Rishi Rao, a commercial leader with over two decades of delivery experience and a deep, practical understanding of how organisations really work. Having operated across complex commercial environments, Rishi brings clarity, structure, and commercial intelligence to systems that are built to support professionals at every level of delivery.",
 
     highlights: [
       "Early identification of entitlement and risk",

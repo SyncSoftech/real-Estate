@@ -10,12 +10,31 @@ export default function OurTeam() {
  const IMG = "/mnt/data/be6442a1-683f-4b00-8e13-a5d19cd86f12.png";
 
   const teamMembers = [
+     {
+      id: 'Eve Chin',
+      name: "Eve Chin",
+      role: "Senior Quantity Surveyor",
+      image: '/team/eve.jpg',
+    },
+    {
+      id: 'Jonathan Maisey',
+      name: "Jonathan Maisey",
+      role: "Senior Quantity Surveyor",
+      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/Image-23-2-e1762605184760.jpg',
+    },
+     {
+      id: 'Ellen Tilles',
+      name: "Ellen Tilles",
+      role: "Senior Quantity Surveyor",
+      image: '/team/ellen.jpg',
+    },
    {
       id: 'Sabahat Mazhar',
       name: "Sabahat Mazhar",
       role: "Operations Manager",
       image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/sabahat-1.jpg',
     },
+   
     {
       id: 'Mrunali Ghumare',
       name: "Mrunali Ghumare",
@@ -28,43 +47,23 @@ export default function OurTeam() {
       role: "Graduate Quantity Surveyor",
       image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Untitled-design-1.jpg',
     },
-    {
-      id: 'Jonathan Maisey',
-      name: "Jonathan Maisey",
-      role: "Senior Quantity Surveyor",
-      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/Image-23-2-e1762605184760.jpg',
-    },
+    
     {
       id: 'Tehreem Rubab',
       name: "Tehreem Rubab",
       role: "Marketing Assistant",
       image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/Image-14-scaled-e1762605149872.jpg',
     },
-    {
-      id: 'Ellen Tilles',
-      name: "Ellen Tilles",
-      role: "Senior Quantity Surveyor",
-      image: '/team/ellen.jpg',
-    },
     
-    {
-      id: 'Eve Chin',
-      name: "Eve Chin",
-      role: "Senior Quantity Surveyor",
-      image: '/team/eve.jpg',
-    },
+    
+   
     // {
     //   id: 'Manu Nair',
     //   name: "Manu Nair",
     //   role: "Commercial Manager",
     //   image: '/team/manu.jpg',
     // },
-    {
-      id: 'Juan Chaux',
-      name: "Juan Chaux",
-      role: "Head of Estimating EPC, Nuclear and Critical Infrastructure Specialist",
-      image: '/team/Juan.jpg',
-    },
+    
     
   ];
 

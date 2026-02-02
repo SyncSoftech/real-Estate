@@ -122,9 +122,7 @@ export default function About() {
         Our approach is practical. We understand the real pressures felt on live projects and take responsibility for solving problems before they grow. Clients rely on us for accurate reporting, informed advice and strong commercial systems that allow delivery teams to perform at their best.
       </p>
 
-      <p className="text-lg leading-relaxed">
-        We support residential, commercial and data centre projects across the United Kingdom and Europe. We also work within major EPCM environments and provide commercial support to subcontractors who need strong backing on complex works.
-      </p>
+      
 
       <p className="text-lg leading-relaxed">
         Ginjo is built on integrity, accountability and collaboration. We stand by our decisions, support our clients at every stage and deliver solutions that create measurable improvement. Our goal is simple. Better commercial outcomes for every project we touch.
