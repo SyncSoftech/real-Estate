@@ -1268,7 +1268,7 @@ const slides = service
           <img
             src={service.image}
             alt={service.title}
-            className="w-full h-[35rem] object-cover"
+            className="w-full h-[20rem] lg:h-[35rem] object-cover"
           />
         </div>
       </section>
