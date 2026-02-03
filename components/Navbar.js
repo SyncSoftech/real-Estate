@@ -56,7 +56,7 @@
 //                       <div className="flex bg-[#f5f0ea] shadow-xl p-10 rounded-xl border border-[#e0d7cf]">
 //                         {/* Left Side */}
 //                         <div className="w-1/2 pr-10">
-//                           <h2 className="text-4xl font-serif text-[#1f1b18] mb-6">{item.label}</h2>
+//                           <h2 className="text-4xl  text-[#1f1b18] mb-6">{item.label}</h2>
 //                           <p className="text-sm max-w-[300px] leading-6 text-[#1f1b18]">
 //                             We drive transparency, predictability and performance on complex
 //                             projects and programmes, achieving successful outcomes and return
@@ -114,7 +114,7 @@
 //       </div>
 
 //       <style jsx>{`
-//         .font-serif {
+//         . {
 //           font-family: Georgia, 'Times New Roman', serif;
 //         }
 //       `}</style>
@@ -195,7 +195,7 @@
 //                     >
 //                       <div className="flex bg-[#f5f0ea] p-10 rounded-xl border border-[#e0d7cf] shadow-sm">
 //                         <div className="w-1/2 pr-10">
-//                           <h3 className="text-4xl font-serif text-[#1f1b18] mb-4">{item.label}</h3>
+//                           <h3 className="text-4xl  text-[#1f1b18] mb-4">{item.label}</h3>
 //                           <p className="text-sm leading-6 font-medium max-w-[320px] text-[#1f1b18]">
 //                             We drive transparency, predictability and performance on complex projects and programmes,
 //                             achieving successful outcomes and return on investment.
@@ -299,7 +299,7 @@
 //             <div className="px-6 py-4">
 //               <button className="text-sm text-blue-600 mb-4 flex items-center gap-2" onClick={() => setMobilePanel(null)}>← Back</button>
 
-//               <h3 className="text-3xl font-serif mb-3">{mobilePanel.charAt(0).toUpperCase() + mobilePanel.slice(1)}</h3>
+//               <h3 className="text-3xl  mb-3">{mobilePanel.charAt(0).toUpperCase() + mobilePanel.slice(1)}</h3>
 //               <p className="text-sm leading-6 text-[#1f1b18] max-w-[320px] mb-6">
 //                 We drive transparency, predictability and performance on complex projects and programmes, achieving successful outcomes and return on investment.
 //               </p>
@@ -329,7 +329,7 @@
 //       </div>
 
 //       <style jsx>{`
-//         .font-serif { font-family: Georgia, 'Times New Roman', serif; }
+//         . { font-family: Georgia, 'Times New Roman', serif; }
 //       `}</style>
 //     </header>
 //   );
@@ -446,7 +446,7 @@
 //                         <div className="flex bg-[#efe9e0] p-10 rounded-xl -mt-5 shadow-sm">
 //                           <div className="w-1/2 pr-10">
 //                             <Link href={item.link}>
-//                               <h3 className="text-4xl font-serif text-[#1f1b18] mb-4">
+//                               <h3 className="text-4xl  text-[#1f1b18] mb-4">
 //                                 {item.label}
 //                               </h3>
 //                             </Link>
@@ -658,7 +658,7 @@
 //                   ← Back
 //                 </button>
 
-//                 <h3 className="text-3xl font-serif mb-3">
+//                 <h3 className="text-3xl  mb-3">
 //                   {mobilePanel.charAt(0).toUpperCase() + mobilePanel.slice(1)}
 //                 </h3>
 //                 <p className="text-sm leading-6 text-[#1f1b18] max-w-[320px] mb-6">
@@ -717,7 +717,7 @@
 //         </div>
 
 //         <style jsx>{`
-//           .font-serif {
+//           . {
 //             font-family: Georgia, "Times New Roman", serif;
 //           }
 //         `}</style>
@@ -840,7 +840,7 @@ export default function Navbar() {
                         <div className="flex bg-[#efe9e0] p-10 rounded-xl -mt-5 shadow-sm">
                           <div className="w-1/2 pr-10">
                             <Link href={item.link} >
-                              <h3 className="text-4xl flex font-serif text-[#1f1b18] mb-4">
+                              <h3 className="text-4xl flex  text-[#1f1b18] mb-4">
                                 {item.label} <CiCircleChevRight className='text-4xl pt-2' />
                               </h3>
                             </Link>
@@ -1077,9 +1077,10 @@ export default function Navbar() {
                   ← Back
                 </button>
 
-                <h3 className="text-3xl flex font-serif mb-3">
+               <Link  href={'/services'} onClick={() => setMobileOpen(false)}> <h3 className="text-3xl flex  mb-3">
                   {mobilePanel.charAt(0).toUpperCase() + mobilePanel.slice(1)} <CiCircleChevRight className='text-4xl pl-2' />
                 </h3>
+                </Link>
                 <p className="text-sm leading-6 text-[#1f1b18] max-w-[320px] mb-6">
                   We drive transparency, predictability and performance on
                   complex projects and programmes, achieving successful outcomes
@@ -1139,7 +1140,7 @@ export default function Navbar() {
         </div>
 
         <style jsx>{`
-          .font-serif {
+          . {
             font-family: Georgia, "Times New Roman", serif;
           }
         `}</style>
