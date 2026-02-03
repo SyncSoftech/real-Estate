@@ -44,7 +44,7 @@ export default function Hero() {
           <div className=" ">
             <h1 className=" text-3xl  lg:text-7xl  tracking-tight text-left text-[#123e6a]">
               <div className="block ">
-                <span className='font-light text-3xl lg:text-7xl  '>We help</span>
+                <span className=' text-3xl lg:text-7xl  '>We help</span>
               <div className="block h-16 sm:h-20 md:h-24 relative">
                 <div className="absolute inset-0 flex items-center">
                   {verbs.map((verb, i) => (
