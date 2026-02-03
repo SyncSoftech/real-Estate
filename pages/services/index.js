@@ -12,7 +12,7 @@ const CAPABILITIES = [
   {
     title: "Variation Management",
     desc: "At Ginjo, we bring order to the change process, ensuring every modification works for your project – not against it.",
-    image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/graph-business-financial-investment-risk-word-1536x1121.jpg',
+    image: "/IMG_1870.jpg",
   },
   {
     title: "Tendering & Procurement",
@@ -22,12 +22,12 @@ const CAPABILITIES = [
   {
     title: "Quantity Surveying & Commercial Management",
     desc: "Ginjo’s quantity surveying and commercial management services protect your margins from tender to final account. ",
-    image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/site-engineer-construction-site-1536x1025.jpg',
+    image:  "/IMG_0797.jpg",
   },
   {
     title: "Estimating BOQs & MTOs",
     desc: "We combine human expertise with tech-enabled tools to deliver fast, accurate outputs – while always maintaining professional judgment and scope understanding.",
-    image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/close-up-pens-calculator-plans-1536x1024.jpg',
+    image: "/Estimating.jpg",
   },
   {
     title: "NEC, JCT, FIDIC, Bespoke Contract Experts",

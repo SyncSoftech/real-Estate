@@ -794,7 +794,7 @@ const CAPABILITIES = [
     title: "Variation Management",
     desc: "Variations don't have to mean chaos or cost overruns. At Ginjo, we bring order to the change process, ensuring every modification works for your project – not against it.",
     image:
-      "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/graph-business-financial-investment-risk-word-1536x1121.jpg",
+      "/IMG_1870.jpg",
     content: {
       description:
         "Our Variation Management service helps you maintain control over the entire variation lifecycle — tracking, valuing, negotiating and documenting every change so your project stays on track.",
@@ -878,7 +878,7 @@ const CAPABILITIES = [
     title: "Quantity Surveying & Commercial Management",
     desc: "Ginjo's quantity surveying and commercial management services protect your margins from tender to final account.",
     image:
-      "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/site-engineer-construction-site-1536x1025.jpg",
+      "/IMG_0797.jpg",
     content: {
       description:
         "Led by Adersh Rajagopalan Our RICS-accredited specialists deliver accurate cost forecasting, NEC/JCT-compliant valuations and interim applications, and dispute-resistant documentation to protect your project's commercial position.",
@@ -916,7 +916,7 @@ const CAPABILITIES = [
     title: "Estimating, BOQs & MTOs",
     desc: "We combine experienced commercial judgment with tech-enabled tools to deliver fast, accurate, and structured outputs—while maintaining rigorous scope understanding, cost certainty, and commercial integrity.",
     image:
-      "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/close-up-pens-calculator-plans-1536x1024.jpg",
+      "/Estimating.jpg",
     content: {
       description:
         " Led by Juan Chaux, Estimating Director, our estimating, Bills of Quantities, and Material Take-Off services are delivered with confidence across complex EPC and megaproject environments.        Sustainability is embedded throughout our process. Our estimates incorporate carbon monitoring and sustainability considerations, supporting informed decision-making, responsible procurement, and alignment with evolving ESG and net-zero objectives.",
@@ -1268,7 +1268,7 @@ const slides = service
           <img
             src={service.image}
             alt={service.title}
-            className="w-full h-full object-cover"
+            className="w-full h-[35rem] object-cover"
           />
         </div>
       </section>
