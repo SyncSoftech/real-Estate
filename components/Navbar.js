@@ -1139,11 +1139,7 @@ export default function Navbar() {
           </aside>
         </div>
 
-        <style jsx>{`
-          . {
-            font-family: Georgia, "Times New Roman", serif;
-          }
-        `}</style>
+       
       </header>
     </>
   );
