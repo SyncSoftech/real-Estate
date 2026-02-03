@@ -77,7 +77,7 @@ export default function Services() {
 >
 
         <div className="max-w-7xl mx-auto px-6 py-16 text-white">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold">Services</h1>
+          <h1 className="text-4xl md:text-5xl  font-bold">Services</h1>
           <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed ">
             We are involved in many of the world's most impactful construction
             projects and programmes. See where our work has helped to transform
@@ -99,7 +99,7 @@ export default function Services() {
           <span>services</span>
         </nav>
 
-        <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-tight font-bold mb-6">
+        <h1 className=" text-4xl md:text-5xl lg:text-6xl leading-tight font-bold mb-6">
           We are Experts in Momentum
         </h1>
 
@@ -125,7 +125,7 @@ export default function Services() {
       
 
       <div className="max-w-5xl mx-auto px-6">
-        <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4">
+        <h2 className=" text-3xl md:text-4xl font-bold mb-4">
           Our programmatic approach
         </h2>
 
@@ -158,7 +158,7 @@ export default function Services() {
       
       <div className="max-w-7xl mx-auto px-6">
         {/* Heading */}
-        <h2 className="font-serif text-3xl md:text-4xl font-bold mb-8">
+        <h2 className=" text-3xl md:text-4xl font-bold mb-8">
           Our capabilities
         </h2>
 
@@ -179,7 +179,7 @@ export default function Services() {
               </div>
 
               <div className="p-5 bg-[#bac6c7] h-full rounded-b-xl">
-                <h3 className="font-serif text-lg font-semibold mb-2">
+                <h3 className=" text-lg font-semibold mb-2">
                   {item.title}
                 </h3>
                 <p className="text-sm text-gray-700 leading-relaxed">
@@ -212,7 +212,7 @@ export default function Services() {
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Heading */}
-        <h2 className="font-serif text-3xl md:text-4xl font-bold">
+        <h2 className=" text-3xl md:text-4xl font-bold">
           Our projects
         </h2>
 
@@ -229,7 +229,7 @@ export default function Services() {
               <img src={projects[0].image} className="absolute inset-0 w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
               <div className="absolute left-4 right-4 bottom-4">
-              <Link href={projects[0].link}>  <h3 className="text-white font-serif text-lg md:text-xl leading-tight">{projects[0].title}</h3>
+              <Link href={projects[0].link}>  <h3 className="text-white  text-lg md:text-xl leading-tight">{projects[0].title}</h3>
                 <div className="mt-3 flex justify-end">
                   <div className="w-9 h-9 rounded-full border border-white/70 flex items-center justify-center">
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
@@ -248,7 +248,7 @@ export default function Services() {
               <img src={projects[1].image} className="absolute inset-0 w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
               <div className="absolute left-4 right-4 bottom-4">
-                <Link href={projects[1].link}><h3 className="text-white font-serif text-lg md:text-xl leading-tight">{projects[1].title}</h3>
+                <Link href={projects[1].link}><h3 className="text-white  text-lg md:text-xl leading-tight">{projects[1].title}</h3>
                 <div className="mt-3 flex justify-end">
                   <div className="w-9 h-9 rounded-full border border-white/70 flex items-center justify-center">
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
@@ -267,7 +267,7 @@ export default function Services() {
               <img src={projects[2].image} className="absolute inset-0 w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
               <div className="absolute left-4 right-4 bottom-4">
-               <Link href={projects[2].link}> <h3 className="text-white font-serif text-lg md:text-xl leading-tight">{projects[2].title}</h3>
+               <Link href={projects[2].link}> <h3 className="text-white  text-lg md:text-xl leading-tight">{projects[2].title}</h3>
                 <div className="mt-3 flex justify-end">
                   <div className="w-9 h-9 rounded-full border border-white/70 flex items-center justify-center">
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
