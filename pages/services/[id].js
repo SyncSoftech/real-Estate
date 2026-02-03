@@ -442,7 +442,7 @@
 //             {/* Left Content */}
 //             <div className="bg-[#bac6c7] p-8 md:p-14 lg:p-20 xl:p-28 rounded-tr-3xl rounded-br-3xl lg:rounded-br-none lg:rounded-tl-3xl">
 //               <div className="max-w-2xl">
-//                 <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-tight font-bold text-[#1f2937]">
+//                 <h1 className=" text-4xl md:text-5xl lg:text-6xl leading-tight font-bold text-[#1f2937]">
 //                   {service.title}
 //                 </h1>
 //                 <p className="mt-6 text-base md:text-lg text-[#374151] ">
@@ -475,7 +475,7 @@
 //               {/* Highlights (if any) */}
 //               {highlightsList && highlightsList.length > 0 && (
 //                 <div className="mb-6">
-//                   <h4 className="font-serif text-lg font-semibold mb-3">How we help</h4>
+//                   <h4 className=" text-lg font-semibold mb-3">How we help</h4>
 //                   <ul className="list-disc pl-5 text-gray-700 space-y-2">
 //                     {highlightsList.map((h, i) => (
 //                       <li key={i} className="">{h}</li>
@@ -516,8 +516,8 @@
 //                   <div className="space-y-4">
 //                     {Object.entries(bulletsDetails).map(([key, detail]) => (
 //                       <div key={key} className="p-4 rounded-lg bg-[#bac6c7] border">
-//                         <div className="font-semibold  font-serif mb-2">{detail.heading || key}</div>
-//                         <pre className="text-sm font-serif text-gray-700  whitespace-pre-wrap">
+//                         <div className="font-semibold   mb-2">{detail.heading || key}</div>
+//                         <pre className="text-sm  text-gray-700  whitespace-pre-wrap">
 //                           {detail.text || detail}
 //                         </pre>
 //                       </div>
@@ -578,7 +578,7 @@
 //             <div className="text-white max-w-xl">
 //               <div className="text-sm tracking-wide font-medium mb-4 opacity-90">{slide.label}</div>
 
-//               <h1 className="font-serif text-3xl md:text-5xl lg:text-6xl font-bold leading-tight whitespace-pre-line">
+//               <h1 className=" text-3xl md:text-5xl lg:text-6xl font-bold leading-tight whitespace-pre-line">
 //                 {slide.title}
 //               </h1>
 
@@ -609,7 +609,7 @@
 //       {/* Insights grid */}
 //       <section className="w-full bg-white py-12 lg:py-20">
 //         <div className="max-w-7xl mx-auto px-6">
-//           <h2 className="text-3xl md:text-4xl font-serif font-bold mb-10">Explore our insights</h2>
+//           <h2 className="text-3xl md:text-4xl  font-bold mb-10">Explore our insights</h2>
 
 //           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 //             {INSIGHTS.map((item) => (
@@ -617,7 +617,7 @@
 //                 <img src={item.image} alt={item.title} className="w-full h-40 md:h-44 object-cover rounded-t-xl" />
 
 //                 <Link href={`/insights/${item.id}`}> <div className="bg-[#bac6c7] h-full p-5 rounded-b-xl">
-//                   <h3 className="font-serif font-semibold text-lg leading-tight mb-3">{item.title}</h3>
+//                   <h3 className=" font-semibold text-lg leading-tight mb-3">{item.title}</h3>
 
 //                   <p className="text-gray-700 text-sm  mb-5">{item.description}</p>
 
@@ -650,7 +650,7 @@
 //         {/* Expert witness hero */}
          
 //     <section className="max-w-7xl mx-auto px-6 py-8">
-//       <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">
+//       <h2 className="text-3xl md:text-4xl  font-bold mb-6">
 //         Our expert witnesses
 //       </h2>
 
@@ -674,7 +674,7 @@
 //               {slides[index].tag}
 //             </div>
 
-//             <h3 className="font-serif text-2xl md:text-3xl lg:text-4xl text-white font-semibold leading-tight mb-4">
+//             <h3 className=" text-2xl md:text-3xl lg:text-4xl text-white font-semibold leading-tight mb-4">
 //               {slides[index].title}
 //             </h3>
 
@@ -738,10 +738,10 @@
 
 //         {/* Contact */}
 //         <section className="max-w-7xl mx-auto px-6 pb-12">
-//           <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">Get in touch</h2>
+//           <h2 className="text-3xl md:text-4xl  font-bold mb-6">Get in touch</h2>
 
 //           <div className="max-w-xl">
-//             <div className="font-serif text-xl font-semibold">Honest Commercial Support. Real Project Results.</div>
+//             <div className=" text-xl font-semibold">Honest Commercial Support. Real Project Results.</div>
            
 
 //             <ul className="space-y-3">
@@ -1258,7 +1258,7 @@ const slides = service
       {/* ---------------- HERO ---------------- */}
       <section className="grid grid-cols-1 lg:grid-cols-2">
         <div className="bg-[#bac6c7] p-10 lg:p-20 rounded-tr-3xl rounded-br-3xl">
-          <h1 className="font-serif text-4xl lg:text-6xl font-bold">
+          <h1 className=" text-4xl lg:text-6xl font-bold">
             {service.title}
           </h1>
           <p className="mt-6 text-lg">{service.desc}</p>
@@ -1287,7 +1287,7 @@ const slides = service
           {/* Highlights */}
           {highlights.length > 0 && (
             <div>
-              <h3 className="font-serif text-xl font-semibold mb-3">
+              <h3 className=" text-xl font-semibold mb-3">
                 How we help
               </h3>
               <ul className="list-disc pl-6 space-y-2">
@@ -1325,7 +1325,7 @@ const slides = service
           {/* Bullet Details (Variation / Tender / QS / Claims) */}
           {bulletsDetails && (
             <div>
-              <h3 className="font-serif text-xl font-semibold mb-4">
+              <h3 className=" text-xl font-semibold mb-4">
                 Key Specialisms
               </h3>
               <div className="space-y-4">
@@ -1334,10 +1334,10 @@ const slides = service
                     key={key}
                     className="bg-[#bac6c7] p-5 rounded-lg"
                   >
-                    <h4 className="font-serif font-semibold mb-2">
+                    <h4 className=" font-semibold mb-2">
                       {val.heading || key}
                     </h4>
-                    <pre className="whitespace-pre-wrap font-serif  text-sm">
+                    <pre className="whitespace-pre-wrap   text-sm">
                       {val.text || val}
                     </pre>
                   </div>
@@ -1413,7 +1413,7 @@ const slides = service
  {/* Insights grid */}
        <section className="w-full bg-white py-12 lg:py-20">
          <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold mb-10">Explore our insights</h2>
+          <h2 className="text-3xl md:text-4xl  font-bold mb-10">Explore our insights</h2>
 
            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
              {INSIGHTS.map((item) => (
@@ -1421,7 +1421,7 @@ const slides = service
                 <img src={item.image} alt={item.title} className="w-full h-40 md:h-44 object-cover rounded-t-xl" />
 
                 <Link href={`/insights/${item.id}`}> <div className="bg-[#bac6c7] h-full p-5 rounded-b-xl">
-                  <h3 className="font-serif font-semibold text-lg leading-tight mb-3">{item.title}</h3>
+                  <h3 className=" font-semibold text-lg leading-tight mb-3">{item.title}</h3>
 
                   <p className="text-gray-700 text-sm  mb-5">{item.description}</p>
 
@@ -1454,7 +1454,7 @@ const slides = service
         {/* Expert witness hero */}
          
     <section className="max-w-7xl mx-auto px-6 py-8">
-      <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">
+      <h2 className="text-3xl md:text-4xl  font-bold mb-6">
         Our expert witnesses
       </h2>
 
@@ -1478,7 +1478,7 @@ const slides = service
               {slides[index].tag}
             </div>
 
-            <h3 className="font-serif text-2xl md:text-3xl lg:text-4xl text-white font-semibold leading-tight mb-4">
+            <h3 className=" text-2xl md:text-3xl lg:text-4xl text-white font-semibold leading-tight mb-4">
               {slides[index].title}
             </h3>
 
@@ -1543,10 +1543,10 @@ const slides = service
 
          {/* Contact */}
         <section className="max-w-7xl mx-auto px-6 pb-12">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">Get in touch</h2>
+          <h2 className="text-3xl md:text-4xl  font-bold mb-6">Get in touch</h2>
 
           <div className="max-w-xl">
-            <div className="font-serif text-xl font-semibold">Honest Commercial Support. Real Project Results.</div>
+            <div className=" text-xl font-semibold">Honest Commercial Support. Real Project Results.</div>
            
 
             <ul className="space-y-3">

@@ -50,7 +50,7 @@ export default function OurLeaders() {
     
   }}> 
    <div className="max-w-7xl mx-auto px-6 py-16">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold">Our Leadership</h1>
+          <h1 className="text-4xl md:text-5xl  font-bold">Our Leadership</h1>
           <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed text-white/90">
             We are involved in many of the world's most impactful construction
             projects and programmes. See where our work has helped to transform
@@ -100,7 +100,7 @@ export default function OurLeaders() {
               </div>
 
               <div className="bg-[#bac6c7] p-5 rounded-b-2xl">
-                <h3 className="font-serif text-lg font-semibold">{leader.name}</h3>
+                <h3 className=" text-lg font-semibold">{leader.name}</h3>
                 <p className="text-xs text-gray-700 mt-1">{leader.role}</p>
               </div>
             </a>
@@ -114,7 +114,7 @@ export default function OurLeaders() {
       <div className="w-full bg-[#bac6c7] text-Black">
         <div className="max-w-7xl mx-auto px-6 py-12">
 
-          <h2 className="font-serif text-3xl md:text-4xl font-bold mb-3">
+          <h2 className=" text-3xl md:text-4xl font-bold mb-3">
             Join our team
           </h2>
 

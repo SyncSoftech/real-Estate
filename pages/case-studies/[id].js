@@ -242,7 +242,7 @@
 //       <main className="mx-10 bg-white">
 //         <header className="bg-[#163c72] -mb-12 text-white rounded-b-2xl overflow-hidden">
 //           <div className="max-w-7xl mx-auto px-6 py-16">
-//             <h1 className="text-4xl md:text-5xl font-serif font-bold">
+//             <h1 className="text-4xl md:text-5xl  font-bold">
 //               {DATA.pageTitle}
 //             </h1>
 //             <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed text-white/90">
@@ -275,7 +275,7 @@
 //                 />
 //               </div>
 
-//               <h2 className="font-serif text-3xl font-bold mb-4">{caseStudy.title}</h2>
+//               <h2 className=" text-3xl font-bold mb-4">{caseStudy.title}</h2>
 
 //               <p className="text-gray-700 mb-4 leading-relaxed">{caseStudy.description}</p>
 
@@ -719,7 +719,7 @@ export default function CaseStudyPage({ caseStudy, related = [] }) {
     
   }}>
           <div className="max-w-7xl mx-auto px-6 py-16">
-            <h1 className="text-4xl md:text-5xl font-serif font-bold">{DATA.pageTitle}</h1>
+            <h1 className="text-4xl md:text-5xl  font-bold">{DATA.pageTitle}</h1>
             <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed text-white/90">
               Case study — {caseStudy.title}
             </p>
@@ -750,7 +750,7 @@ export default function CaseStudyPage({ caseStudy, related = [] }) {
                 />
               </div>
 
-              <h2 className="font-serif text-3xl font-bold mb-4">{caseStudy.title}</h2>
+              <h2 className=" text-3xl font-bold mb-4">{caseStudy.title}</h2>
 
               <p className="text-gray-700 mb-4 leading-relaxed">{caseStudy.description}</p>
 

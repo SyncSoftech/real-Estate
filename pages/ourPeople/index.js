@@ -36,7 +36,7 @@ export default function OurPeople() {
     `
     
   }}>  <div className="max-w-7xl mx-auto px-6 py-16">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold">Our People</h1>
+          <h1 className="text-4xl md:text-5xl  font-bold">Our People</h1>
           <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed text-white/90">
             We are involved in many of the world's most impactful construction
             projects and programmes. See where our work has helped to transform
@@ -82,7 +82,7 @@ export default function OurPeople() {
               </div>
 
               <div className="bg-[#bac6c7] p-5 rounded-b-2xl">
-               <Link href={c.href}> <h3 className="font-serif text-xl font-semibold mb-2">{c.title}</h3></Link>
+               <Link href={c.href}> <h3 className=" text-xl font-semibold mb-2">{c.title}</h3></Link>
                 <p className="text-sm text-gray-700">{c.desc}</p>
               </div>
             </article>
@@ -94,7 +94,7 @@ export default function OurPeople() {
       {/* Join our team banner */}
       <div className="w-full bg-[#bac6c7] text-Black">
         <div className="max-w-7xl mx-auto px-6 py-12 md:py-16">
-          <h2 className="font-serif text-3xl md:text-4xl font-bold mb-3">Join our team</h2>
+          <h2 className=" text-3xl md:text-4xl font-bold mb-3">Join our team</h2>
           <p className="text-sm md:text-base  max-w-3xl mb-6">
             Work on some of the most exciting projects and programmes happening around the world.
           </p>

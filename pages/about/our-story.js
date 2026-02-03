@@ -17,7 +17,7 @@ export default function OurStory() {
           `
         }}>
           <div className="max-w-7xl mx-auto px-6 text-white">
-            <h1 className="text-4xl md:text-5xl font-serif font-bold mb-4">Our Story</h1>
+            <h1 className="text-4xl md:text-5xl  font-bold mb-4">Our Story</h1>
             <p className="text-xl max-w-3xl">
               From a simple belief to a trusted partner in construction commercial management
             </p>
@@ -43,7 +43,7 @@ export default function OurStory() {
             </p>
 
             <div className="bg-custom-yellow p-6 rounded-xl border border-custom-grey my-12">
-              <h2 className="font-serif text-3xl font-bold mb-6 text-[#0f4b7f]">Our Journey</h2>
+              <h2 className=" text-3xl font-bold mb-6 text-[#0f4b7f]">Our Journey</h2>
               <div className="space-y-6">
                 <p>
                   Our early work established us as a partner who protects value. We provided precise cost control, robust contract management and support through procurement and tendering. Clients recognized that when we were involved, risks were reduced and outcomes improved. This created long lasting relationships across construction and rail, and gave us a strong foundation for growth.
@@ -55,7 +55,7 @@ export default function OurStory() {
               </div>
             </div>
 
-            <h2 className="font-serif text-3xl font-bold mt-16 mb-6 text-[#0f4b7f]">Where We Are Today</h2>
+            <h2 className=" text-3xl font-bold mt-16 mb-6 text-[#0f4b7f]">Where We Are Today</h2>
             <p className="mb-6">
               Today we support projects of every size and complexity. Residential developments, commercial buildings, data centres and major infrastructure programmes all benefit from our approach. We bring structure to uncertainty and make sure our clients stay in control, even when delivery pressures increase.
             </p>
@@ -65,7 +65,7 @@ export default function OurStory() {
             </p>
 
             <div className="bg-gray-50 p-6 rounded-xl my-12 border border-gray-200">
-              <h3 className="font-serif text-2xl font-semibold mb-4">Looking Ahead</h3>
+              <h3 className=" text-2xl font-semibold mb-4">Looking Ahead</h3>
               <p>
                 The construction industry continues to change. Regulations shift. Technology advances. Expectations rise. At Ginjo, we treat this change as an opportunity to improve. We learn from every project. We refine our processes. We help our clients adapt and succeed in a more demanding future.
               </p>
@@ -80,7 +80,7 @@ export default function OurStory() {
         {/* CTA Section */}
         <section className="bg-[#bac6c7] text-Black py-16">
           <div className="max-w-4xl mx-auto px-6 text-center">
-            <h2 className="font-serif text-3xl font-bold mb-6">Become Part of Our Story</h2>
+            <h2 className=" text-3xl font-bold mb-6">Become Part of Our Story</h2>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
               Join us in shaping the future of construction project delivery with commercial excellence and innovative digital solutions.
             </p>

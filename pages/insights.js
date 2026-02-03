@@ -105,7 +105,7 @@
 //       {/* Top blue banner */}
 //       <header className="bg-[#163c72] -mb-20 text-white rounded-b-2xl overflow-hidden">
 //         <div className="max-w-7xl mx-auto px-6 py-16">
-//           <h1 className="text-4xl md:text-5xl font-serif font-bold">Insights</h1>
+//           <h1 className="text-4xl md:text-5xl  font-bold">Insights</h1>
 //           <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed text-white/90">
 //             We are involved in many of the world's most impactful construction
 //             projects and programmes. See where our work has helped to transform
@@ -245,7 +245,7 @@
 //               </div>
 
 //               <div className="bg-[#f2ebe3] p-4 md:p-5 rounded-b-2xl">
-//                 <h3 className="font-serif text-lg md:text-lg font-semibold leading-tight mb-2">
+//                 <h3 className=" text-lg md:text-lg font-semibold leading-tight mb-2">
 //                   {p.title}
 //                 </h3>
 
@@ -342,7 +342,7 @@
 
 //  <section className="w-full bg-white py-10">
 //       <div className="  mx-10 px-4">
-//         <h2 className="text-2xl md:text-3xl font-serif font-semibold mb-6">
+//         <h2 className="text-2xl md:text-3xl  font-semibold mb-6">
 //           Explore our publications
 //         </h2>
 
@@ -363,7 +363,7 @@
 
 //               {/* bottom content */}
 //               <div className="absolute left-4 bottom-4 right-4 flex items-center justify-between">
-//                 <h3 className="text-white font-serif text-lg leading-tight max-w-[80%]">
+//                 <h3 className="text-white  text-lg leading-tight max-w-[80%]">
 //                   {pub.title}
 //                 </h3>
 
@@ -492,7 +492,7 @@ export default function Insights() {
     
   }}>
         <div className="max-w-7xl mx-auto px-6 py-16">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold">Insights</h1>
+          <h1 className="text-4xl md:text-5xl  font-bold">Insights</h1>
           <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed text-white/90">
             Expert analysis and thought leadership on the latest trends in real estate and construction.
           </p>

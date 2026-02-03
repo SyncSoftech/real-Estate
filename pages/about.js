@@ -84,7 +84,7 @@ export default function About() {
     
   }}>
         <div className="max-w-7xl mx-auto px-6 py-16">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold">About Us</h1>
+          <h1 className="text-4xl md:text-5xl  font-bold">About Us</h1>
           <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed text-white/90">
             We are involved in many of the world's most impactful construction
             projects and programmes. See where our work has helped to transform
@@ -109,7 +109,7 @@ export default function About() {
     <section className=" lg:max-w-6xl lg:mx-auto lg:px-6 py-12">
   {/* ABOUT US */}
   <div className=" rounded-2xl  shadow-sm">
-    <h2 className="font-serif text-3xl md:text-4xl font-bold mb-6 text-[#0f1724]">
+    <h2 className=" text-3xl md:text-4xl font-bold mb-6 text-[#0f1724]">
       About Us
     </h2>
 
@@ -132,7 +132,7 @@ export default function About() {
 
   {/* SECOND SECTION */}
   <div className="mt-12 max-w-6xl mx-auto">
-    <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-tight font-bold mb-6">
+    <h1 className=" text-4xl md:text-5xl lg:text-6xl leading-tight font-bold mb-6">
      We are experts in momentum
     </h1>
 
@@ -193,7 +193,7 @@ By working closely with our clients and partners, we help strengthen their proje
               </div>
 
              <Link href={c.link}> <div className="bg-[#bac6c7] h-full p-5 rounded-b-2xl">
-                <h3 className="font-serif text-xl font-semibold mb-2">{c.title}</h3>
+                <h3 className=" text-xl font-semibold mb-2">{c.title}</h3>
                 <p className="text-sm text-gray-700">{c.desc}</p>
               </div></Link>
             </article>
@@ -205,7 +205,7 @@ By working closely with our clients and partners, we help strengthen their proje
       {/* <section className="max-w-6xl mx-auto px-6 pb-16">
         <div className="mb-6">
           <div className="text-sm uppercase tracking-wide text-gray-600">Outcomes</div>
-          <h2 className="font-serif text-3xl md:text-4xl font-bold mt-3">A testament to innovation</h2>
+          <h2 className=" text-3xl md:text-4xl font-bold mt-3">A testament to innovation</h2>
           <p className="text-gray-700 mt-3 max-w-2xl">Discover how we turn challenge into opportunity and complexity into success for our clients across the world.</p>
         </div>
 
@@ -221,7 +221,7 @@ By working closely with our clients and partners, we help strengthen their proje
                 <img src={o.image} alt={o.title} className="w-full h-56 object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-xl" />
                 <div className="absolute left-4 bottom-4 right-4">
-                  <h3 className="text-white font-serif text-lg font-semibold leading-tight">{o.title}</h3>
+                  <h3 className="text-white  text-lg font-semibold leading-tight">{o.title}</h3>
                   <div className="mt-3 flex justify-end">
                     <button className="w-9 h-9 rounded-full border border-white/70 bg-transparent flex items-center justify-center">
                       <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
@@ -248,7 +248,7 @@ By working closely with our clients and partners, we help strengthen their proje
       {/* Join our team banner */}
       <section className="w-full bg-[#bac6c7] text-Black">
         <div className="max-w-7xl mx-auto px-6 py-12 md:py-16">
-          <h2 className="font-serif text-3xl md:text-4xl font-bold mb-3">
+          <h2 className=" text-3xl md:text-4xl font-bold mb-3">
             Join our team
           </h2>
 
@@ -270,10 +270,10 @@ By working closely with our clients and partners, we help strengthen their proje
 
       {/* Get in touch */}
       <section className="max-w-7xl  mx-auto px-6 mt-5 pb-12">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">Get in touch</h2>
+          <h2 className="text-3xl md:text-4xl  font-bold mb-6">Get in touch</h2>
 
           <div className="max-w-xl">
-            <div className="font-serif text-xl font-semibold">Honest Commercial Support. Real Project Results.</div>
+            <div className=" text-xl font-semibold">Honest Commercial Support. Real Project Results.</div>
            
 
             <ul className="space-y-3">

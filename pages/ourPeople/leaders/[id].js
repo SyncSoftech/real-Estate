@@ -75,7 +75,7 @@ Today, Adersh is known for being calm, reliable and analytically sharp. He provi
 
           <header className="bg-[#bac6c7] -mb-20 text-white rounded-b-2xl pb-20 overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 py-16">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold">{leader.name}</h1>
+          <h1 className="text-4xl md:text-5xl  font-bold">{leader.name}</h1>
           <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed text-white/90">
             {leader.role}
           </p>

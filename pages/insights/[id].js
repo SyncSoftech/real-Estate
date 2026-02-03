@@ -255,7 +255,7 @@ export default function InsightDetail({ insight }) {
     
   }}>
           <div className="max-w-7xl mx-auto px-6 py-16">
-            <h1 className="text-4xl md:text-5xl font-serif font-bold">Insights</h1>
+            <h1 className="text-4xl md:text-5xl  font-bold">Insights</h1>
             <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed text-white/90">
               Expert analysis and thought leadership on the latest trends in real estate and construction.
             </p>

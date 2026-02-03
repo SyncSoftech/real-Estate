@@ -206,7 +206,7 @@ export default function ProjectsSection() {
     
   }}>
           <div className="max-w-7xl mx-auto px-6 py-16">
-            <h1 className="text-4xl md:text-5xl font-serif font-bold">
+            <h1 className="text-4xl md:text-5xl  font-bold">
               {DATA.pageTitle}
             </h1>
             <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed text-white/90">
@@ -359,7 +359,7 @@ export default function ProjectsSection() {
                 </div>
 
                 <div className="bg-[#bac6c7] p-4 md:p-5 rounded-b-2xl flex flex-col flex-grow">
-                  <h3 className="font-serif text-lg md:text-lg font-semibold leading-tight mb-2">
+                  <h3 className=" text-lg md:text-lg font-semibold leading-tight mb-2">
                     {p.title}
                   </h3>
 
@@ -481,7 +481,7 @@ export default function ProjectsSection() {
           {/* RIGHT CONTENT BOX */}
           <div className="bg-[#bac6c7] flex items-center">
             <div className="p-10 lg:p-16 xl:p-20 max-w-xl">
-              <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">
+              <h2 className="text-3xl md:text-4xl  font-bold mb-6">
                 Our stories
               </h2>
 

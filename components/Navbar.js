@@ -894,7 +894,7 @@ export default function Navbar() {
                                 >
                                   {" "}
                                   <p className="font-medium m-2">
-                                   <span>•</span> Estimating BOQs & MTOs
+                                   <span>•</span> Estimating, BOQs & MTOs
                                   </p>
                                 </Link>
                               </div>

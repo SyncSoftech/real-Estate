@@ -191,7 +191,7 @@ export default function JobDetail() {
   {/* Header */}
   <header className="bg-[#bac6c7] -mb-20 text-Black rounded-b-2xl pb-20 overflow-hidden">
     <div className="max-w-7xl mx-auto px-6 py-16">
-      <h1 className="text-4xl md:text-5xl font-serif font-bold">Careers</h1>
+      <h1 className="text-4xl md:text-5xl  font-bold">Careers</h1>
       <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed text-Black/90">
         We are always on the lookout for talented individuals to join our team.
       </p>
