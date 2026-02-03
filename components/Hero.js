@@ -42,7 +42,7 @@ export default function Hero() {
 
           {/* left large headline */}
           <div className=" ">
-            <h1 className="font-serif text-3xl  lg:text-7xl  tracking-tight text-left text-[#123e6a]">
+            <h1 className=" text-3xl  lg:text-7xl  tracking-tight text-left text-[#123e6a]">
               <div className="block ">
                 <span className='font-light text-3xl lg:text-7xl  '>We help</span>
               <div className="block h-16 sm:h-20 md:h-24 relative">
@@ -56,7 +56,7 @@ export default function Hero() {
                         top-2 sm:-top-16 md:-top-15 lg:-top-[3rem] 
                         text-2xl sm:text-3xl md:text-4xl lg:text-[4rem] 
                         w-64 sm:w-80 md:w-[40rem] lg:w-[60rem] 
-                        font-serif transition-all duration-700 ease-out
+                         transition-all duration-700 ease-out
                         ${i === index 
                           ? 'opacity-100 translate-y-0' 
                           : i === (index - 1 + verbs.length) % verbs.length

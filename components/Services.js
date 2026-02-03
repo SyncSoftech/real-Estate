@@ -57,7 +57,7 @@ export default function Services() {
       
       <div className="max-w-7xl  mx-auto px-6">
         {/* Heading */}
-        <h2 className="font-serif text-3xl md:text-4xl font-bold mb-8">
+        <h2 className=" text-3xl md:text-4xl font-bold mb-8">
           Our capabilities
         </h2>
         <p className="mb-16 font-semibold max-w-[50rem]">Turning complex challenges into clear solutions, our capabilities move your vision forward with precision, insight, and disciplined execution delivering outcomes that create clarity, momentum, and lasting impact.</p>
@@ -79,7 +79,7 @@ export default function Services() {
 
         {/* gradient overlay + white text */}
         <div className="absolute inset-x-0 bottom-0 p-5 z-10 bg-gradient-to-t from-black/60 via-black/30 to-transparent text-white">
-          <h3 className="font-serif text-lg font-semibold mb-2">
+          <h3 className=" text-lg font-semibold mb-2">
             {item.title}
           </h3>
           <p className="text-sm leading-relaxed">
