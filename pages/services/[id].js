@@ -1337,7 +1337,7 @@ const slides = service
                     <h4 className=" font-semibold mb-2">
                       {val.heading || key}
                     </h4>
-                    <pre className="whitespace-pre-wrap   text-sm">
+                    <pre className="whitespace-pre-wrap   text-sm font-sans">
                       {val.text || val}
                     </pre>
                   </div>
