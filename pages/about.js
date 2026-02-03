@@ -167,13 +167,10 @@ By working closely with our clients and partners, we help strengthen their proje
       <div className="relative rounded-2xl overflow-hidden">
         {/* VIDEO instead of image */}
         <div className="relative">
-          <video
-            src="https://videos.pexels.com/video-files/4665000/4665000-uhd_2560_1440_30fps.mp4"
-            className="w-full h-64 md:h-80 lg:h-[420px] object-cover rounded-2xl"
-            autoPlay
-            muted
-            loop
-            playsInline
+          <img
+            src="https://media.licdn.com/dms/image/v2/D4E22AQHhPUUreSiMfQ/feedshare-shrink_800/B4EZvXwPgCHoAk-/0/1768851308044?e=1771459200&v=beta&t=Sc4joDgN_EWtRnI9oPM49PSPtvKjOC7NVcsxPUXTmUo"
+            className="w-full h-full  object-cover rounded-2xl"
+            
           />
           {/* gradient overlay */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-2xl" />
