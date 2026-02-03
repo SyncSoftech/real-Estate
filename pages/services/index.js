@@ -25,7 +25,7 @@ const CAPABILITIES = [
     image:  "/IMG_0797.jpg",
   },
   {
-    title: "Estimating BOQs & MTOs",
+    title: "Estimating, BOQs & MTOs",
     desc: "We combine human expertise with tech-enabled tools to deliver fast, accurate outputs – while always maintaining professional judgment and scope understanding.",
     image: "/Estimating.jpg",
   },
