@@ -102,8 +102,8 @@ export default function PeopleStoriesCarousel() {
           <img
             src={story.image}
             alt={`${story.name} portrait`}
-            className="w-full h-full object-cover"
-            style={{ maxHeight: 520 }}
+            className="w-full h-full "
+            style={{ maxHeight: 620 }}
           />
         </div>
 
