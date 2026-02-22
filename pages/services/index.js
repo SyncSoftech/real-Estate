@@ -37,7 +37,7 @@ const CAPABILITIES = [
   {
     title: "Smart Commercial Systems",
     desc: "Smart Commercial Systems Built for Commercial Professionals At Ginjo, our systems are designed and built by Rishi Rao, a commercial leader with two...",
-    image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/ChatGPT-Image-May-18-2025-08_34_58-AM.png',
+    image: 'https://images.pexels.com/photos/34069/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   },
   {
     title: "Project Management",

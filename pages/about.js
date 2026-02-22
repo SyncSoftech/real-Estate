@@ -168,7 +168,7 @@ By working closely with our clients and partners, we help strengthen their proje
         {/* VIDEO instead of image */}
         <div className="relative">
           <img
-            src="https://media.licdn.com/dms/image/v2/D4E22AQHhPUUreSiMfQ/feedshare-shrink_800/B4EZvXwPgCHoAk-/0/1768851308044?e=1771459200&v=beta&t=Sc4joDgN_EWtRnI9oPM49PSPtvKjOC7NVcsxPUXTmUo"
+            src="/lic.png"
             className="w-full h-full  object-cover rounded-2xl"
             
           />
