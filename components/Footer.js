@@ -63,6 +63,7 @@ export default function HearMeFooter() {
                 alt="RICS badge"
                 className="w-20 h-auto object-contain"
               />
+              
             </div>
 
             {/* Contact info (kept simple instead of full newsletter form) */}
@@ -75,6 +76,14 @@ export default function HearMeFooter() {
               <h4 className="text-lg flex items-center font-semibold text-white tracking-wide mt-3">
                 <Mail className="mr-3" />
                 <span className="text-base">sales@ginjo.co.uk</span>
+              </h4>
+              <h4 className="text-lg flex items-center font-semibold text-white tracking-wide mt-3">
+                <img
+                src="/footer/map.png"
+                alt="RICS badge"
+                className="w-7 h-7 object-contain mr-2"
+              />
+                <span className="text-base">100 Bishopsgate, London EC2N 4AG, UK</span>
               </h4>
             </div>
           </div>

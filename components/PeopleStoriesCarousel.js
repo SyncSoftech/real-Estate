@@ -98,14 +98,14 @@ export default function PeopleStoriesCarousel() {
     <section className="w-full bg-white ">
       <div className="  grid grid-cols-1 lg:grid-cols-2 min-h-[520px]">
         {/* LEFT: image */}
-        <div className="relative overflow-hidden">
-          <img
-            src={story.image}
-            alt={`${story.name} portrait`}
-            className="w-full h-full "
-            style={{ maxHeight: 620 }}
-          />
-        </div>
+       <div className="relative overflow-hidden h-[620px]">
+  <img
+  src={story.image}
+  alt={`${story.name} portrait`}
+  className="w-full h-full object-contain"
+  style={{ maxHeight: 620 }}
+/>
+</div>
 
         {/* RIGHT: card */}
         <div className="relative max-h-[620px] bg-[#bac6c7] lg:-ml-10 p-10 md:p-16 flex flex-col justify-between rounded-tl-3xl rounded-bl-3xl border-l-4 border-custom-grey">
