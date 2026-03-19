@@ -4,6 +4,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import Head from 'next/head';
 
 /**
  * ProjectsSection.js — updated
@@ -196,6 +197,13 @@ export default function ProjectsSection() {
 
   return (
     <>
+      <Head>
+        <title>Case Studies - Ginjo Construction | Project Success Stories</title>
+        <meta name="description" content="Explore Ginjo Construction's case studies showcasing successful projects across UK and Europe. See our expertise in quantity surveying, procurement, and commercial management." />
+        <meta name="keywords" content="ginjo construction case studies, construction projects, quantity surveying projects, commercial management, project success, uk construction projects" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://ginjo.co.uk/caseStudies" />
+      </Head>
       <main className=" lg:mx-10  bg-white">
         {/* Top blue banner */}
         <header className=" -mb-20 py-20 bg-cover bg-center bg-no-repeat  text-white rounded-b-2xl overflow-hidden"style={{

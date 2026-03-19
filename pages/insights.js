@@ -397,6 +397,7 @@
 // Update the imports at the top
 import Link from 'next/link';
 import Image from 'next/image';
+import Head from 'next/head';
 import { useState, useMemo } from 'react';
 
 // Replace the SAMPLE_PROJECTS with the actual publications data
@@ -482,9 +483,17 @@ export default function Insights() {
   }, []);
 
   return (
-    <main className="lg:mx-10 bg-white">
-      {/* Header */}
-      <header className=" -mb-20 py-20 bg-cover bg-center bg-no-repeat  text-white rounded-b-2xl overflow-hidden"style={{
+    <>
+      <Head>
+        <title>Insights - Ginjo Construction | Construction Industry Analysis</title>
+        <meta name="description" content="Expert insights and analysis on construction industry trends, project management, commercial management, and quantity surveying from Ginjo Construction experts." />
+        <meta name="keywords" content="construction insights, project management insights, commercial management, quantity surveying trends, construction industry analysis, ginjo construction" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://ginjo.co.uk/insights" />
+      </Head>
+      <main className="lg:mx-10 bg-white">
+        {/* Header */}
+        <header className=" -mb-20 py-20 bg-cover bg-center bg-no-repeat  text-white rounded-b-2xl overflow-hidden"style={{
     backgroundImage: `
       linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
       url('https://www.turnerandtownsend.com/media/vxyftgqu/_h3a0079_2560-x-1440px.webp?width=1280&height=512&v=1dadc4c4e844f10')
@@ -740,5 +749,6 @@ export default function Insights() {
         )}
       </div>
     </main>
+    </>
   );
 }

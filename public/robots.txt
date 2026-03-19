@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.ginjo.co.uk/sitemap.xml
+
+# Allow search engines to crawl all important pages
+Allow: /about
+Allow: /about/our-story
+Allow: /about/what-we-do
+Allow: /about/purpose-values
+Allow: /services
+Allow: /insights
+Allow: /careers
+Allow: /gallery
+Allow: /contact
+Allow: /caseStudies
+Allow: /ourPeople
+
+# Block admin or private areas if any exist
+# Disallow: /admin
+# Disallow: /private
+
+Crawl-delay: 1

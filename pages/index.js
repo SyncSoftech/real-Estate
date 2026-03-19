@@ -19,9 +19,25 @@ export default function Home() {
   return (
     <>
       <Head>
-  <title>Ginjo</title>
-  <meta name="description" content="Ginjo – commercial and project management experts." />
+  <title>Ginjo Construction | Commercial Management & Project Delivery Experts</title>
+  <meta name="description" content="Ginjo Construction - Expert commercial services partner for construction projects. Specializing in quantity surveying, commercial management, procurement, and project delivery across UK and Europe." />
+  <meta name="keywords" content="ginjo construction, commercial management, quantity surveying, project management, procurement, construction consultancy, uk construction, project delivery" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ginjo.co.uk/" />
   <link rel="icon" href="/favicon.ico" />
+  
+  {/* Open Graph */}
+  <meta property="og:title" content="Ginjo Construction | Commercial Management & Project Delivery Experts" />
+  <meta property="og:description" content="Expert commercial services partner for construction projects. Specializing in quantity surveying, commercial management, and project delivery." />
+  <meta property="og:url" content="https://ginjo.co.uk/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://ginjo.co.uk/LOGO.jpg" />
+  
+  {/* Twitter */}
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:title" content="Ginjo Construction | Commercial Management & Project Delivery Experts" />
+  <meta property="twitter:description" content="Expert commercial services partner for construction projects. Specializing in quantity surveying, commercial management, and project delivery." />
+  <meta property="twitter:image" content="https://ginjo.co.uk/LOGO.jpg" />
 </Head>
 
 

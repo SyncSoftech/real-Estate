@@ -3,6 +3,7 @@
 // import { Link } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import Head from 'next/head';
 /**
  * ProjectsSection.js
  *
@@ -74,6 +75,13 @@ export default function About() {
  
 
   return (<>
+    <Head>
+      <title>About Ginjo Construction | Commercial Management Experts</title>
+      <meta name="description" content="Learn about Ginjo Construction - experts in quantity surveying, commercial management, and project delivery. Discover our story, values, and commitment to project excellence." />
+      <meta name="keywords" content="ginjo construction about, commercial management, quantity surveying, project management, construction consultancy, uk construction" />
+      <meta name="robots" content="index, follow" />
+      <link rel="canonical" href="https://ginjo.co.uk/about" />
+    </Head>
     <main className=" lg:mx-10 bg-white">
       {/* Top blue banner */}
       <header className=" -mb-20 py-20 bg-cover bg-center bg-no-repeat  text-white rounded-b-2xl overflow-hidden"style={{

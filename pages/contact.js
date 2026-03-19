@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Mail, Phone, MapPin, Send, CheckCircle } from "lucide-react";
+import Head from 'next/head';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -83,6 +84,14 @@ export default function Contact() {
   };
 
   return (
+    <>
+      <Head>
+        <title>Contact Ginjo Construction | Get in Touch</title>
+        <meta name="description" content="Contact Ginjo Construction for expert quantity surveying, commercial management, and project management services. Call us at +44 07730748210 or email sales@ginjo.co.uk" />
+        <meta name="keywords" content="ginjo construction contact, quantity surveying contact, commercial management, project management, construction consultancy, london construction" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://ginjo.co.uk/contact" />
+      </Head>
     <section className="bg-[#bac6c7] py-16 px-6">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
@@ -330,5 +339,6 @@ export default function Contact() {
         </div>
       </div>
     </section>
+    </>
   );
 }
