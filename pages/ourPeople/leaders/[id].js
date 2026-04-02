@@ -48,7 +48,7 @@ At Ginjo, Rishi oversees operational delivery, procurement, tendering and the co
   id: "Adersh Rajagopalan",
   quote:"Construction is full of surprises which is why we work tirelessly to remove as many as possible. Ginjo delivers commercial and contractual leadership that cuts through noise, tightens the numbers, and keeps your project where it belongs: on track, on budget, and out of trouble. We bring the strategy, structure, and straight talk your team needs and the occasional joke to remind everyone it’s okay to breathe.",
   name: "Adersh Rajagopalan",
-  role: "Senior Consultant, Commercial & Project Controls",
+  role: "Associated Director (Commercial and Contracts)",
   bio: `Adersh brings over sixteen years of commercial and engineering experience across the UK, Dubai and wider international markets. With a background that spans major infrastructure, large-scale civil works, rail programmes and high-volume commercial operations, he brings a global standard of discipline and structure to every client engagement.
 
 His UK experience includes several years delivering commercial and project controls support across major rail and infrastructure programmes, where he developed a strong command of NEC contract administration, change management, forecasting and stakeholder engagement. This hands-on UK rail exposure allows him to understand exactly how commercial pressures move through client organisations, delivery teams and subcontractors — and how to keep programmes commercially steady even in fast-moving environments.
@@ -64,7 +64,7 @@ Today, Adersh is known for being calm, reliable and analytically sharp. He provi
       id: 'Juan Chaux',
        quote:"Great estimates are not guesses. They are stories told with data, logic and commercial discipline.",
       name: "Juan Chaux",
-      role: " Associate Director - Estimating",
+      role: "Associate Director - Estimating",
       bio:`I am a Head of Estimating with more than twenty years of experience delivering strategic pricing, cost modelling and bid leadership across EPC, nuclear, defence, energy, facilities management and critical infrastructure programmes. My background spans both the commercial and technical sides of estimating, allowing me to shape high performing estimating teams and develop methodologies that secure major contracts through accuracy, innovation and disciplined governance.
 
 I have held senior estimating and commercial leadership roles across national and international businesses, developing gated governance processes, lifecycle cost models and pricing strategies for multi million and multi hundred million pound bids. My work has involved leading large estimating teams, developing bid policy, reviewing complex datasets, advising on pricing risk and ensuring consistency across sectors and delivery models.
