@@ -31,7 +31,7 @@ export default function OurLeaders() {
     {
       id: 'Juan Chaux',
       name: "Juan Chaux",
-      role: "Head of Estimating EPC, Nuclear and Critical Infrastructure Specialist",
+      role: " Associate Director - Estimating",
       image: '/team/Juan.jpg',
     },
     
