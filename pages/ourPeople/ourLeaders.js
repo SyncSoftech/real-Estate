@@ -28,12 +28,7 @@ export default function OurLeaders() {
       role: "Associate Director",
       image: '/leaders/adersh.jpg',
     },
-    {
-      id: 'Juan Chaux',
-      name: "Juan Chaux",
-      role: " Associate Director - Estimating",
-      image: '/team/Juan.jpg',
-    },
+    
     
   ];
 
