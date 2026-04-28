@@ -60,20 +60,7 @@ Today, Adersh is known for being calm, reliable and analytically sharp. He provi
   linkedin:"https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFyiEDiubZ5xwAAAZ1NDT8YrY64lUCTuWKHLuFoZs0URxZGm_izDeMo1bL-6o8pgQsH0E3gQY3HM5crYLw7zsKIzSWv9CFscrsBdCrkfXyWCBKesg2PX0ncvaZ4Ae_FKsyDVWQ=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fadersh-rajagopalan-mrics-i-mcinstces-i-maiqs-8347293a%25E2%2580%258EThank"
 },
 
-{
-      id: 'Juan Chaux',
-       quote:"Great estimates are not guesses. They are stories told with data, logic and commercial discipline.",
-      name: "Juan Chaux",
-      role: "Associate Director - Estimating",
-      bio:`I am a Head of Estimating with more than twenty years of experience delivering strategic pricing, cost modelling and bid leadership across EPC, nuclear, defence, energy, facilities management and critical infrastructure programmes. My background spans both the commercial and technical sides of estimating, allowing me to shape high performing estimating teams and develop methodologies that secure major contracts through accuracy, innovation and disciplined governance.
 
-I have held senior estimating and commercial leadership roles across national and international businesses, developing gated governance processes, lifecycle cost models and pricing strategies for multi million and multi hundred million pound bids. My work has involved leading large estimating teams, developing bid policy, reviewing complex datasets, advising on pricing risk and ensuring consistency across sectors and delivery models.
-
-Throughout my career I have focused on building strong estimating foundations, supporting teams with clear processes and ensuring that pricing reflects both the realities of delivery and the strategic objectives of the organisation. I enjoy developing people, improving systems and helping teams create estimates that are robust, competitive and defensible.
-
-From January, I bring this expertise to Ginjo, strengthening our capability in EPC estimating, cost modelling and bid strategy across the UK and international markets. My aim is simple. Support teams with clarity, improve confidence in the numbers and help clients secure work with well structured bids that stand up to scrutiny.`,
-      image: '/team/Juan.jpg',
-    },
 
 
 
